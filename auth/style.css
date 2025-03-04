@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1, h2,h3,h4,h5,h6,p {
+    margin-bottom: 0;
+}
+
+.admin_login_cont {
+    width: 100%;
+    min-height: 100vh;
+    max-height: 800px;
+    background-color: #0b3f88;
+}
+.admin_login_cont .form_cont {
+    width: 505px;
+    border-radius: 10px;
+    padding: 32px;
+    box-shadow: 0px 4px 6px -1px #0000000D;
+    background: #FFFFFF;
+}
+.admin_login_cont .form_cont h1 {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 39px;
+    letter-spacing: 0px;
+    color: #1C1939;
+}
+.admin_login_cont .form_cont p {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0%;
+    color: #1C1939;
+}
+
+.admin_login_cont .form_cont .input_cont label {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    color: #344054;
+}
+.admin_login_cont .form_cont .input_cont input {
+    width: 100%;
+    height: 52px;
+    border-radius: 4px;
+    border-width: 0.7px;
+    outline: none;
+    background: #FFFFFF;
+    padding: 20px;
+    padding-right: 30px;
+    border: 0.7px solid #E6E8EF;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0%;
+}
+.admin_login_cont .form_cont .input_cont .icon {
+    right: 9px;
+    top: 47px;
+}
+.admin_login_cont .form_cont button{
+    width: 100%;
+    padding-top: 16px;
+    padding-right: 30px;
+    padding-bottom: 16px;
+    padding-left: 30px;
+    background: #0B3F88;
+    border-radius: 8px;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    border: none;
+}
+.admin_login_cont .form_cont h3 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.1%;
+    text-align: center;
+    color: #181818;
+}
+.admin_login_cont .form_cont {
+    position: relative;
+    z-index: 2;
+}
+.admin_login_cont .form_cont h3 span {
+    color: #0B3F88;
+}
+.admin_login_cont .wave {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+
+.admin_login_cont .logo {
+    top: 15px;
+    left: 0;
+    right: 0;
+}
+
+.dash_select_cont .nav {
+    width: 100%;
+    background: #EDF6FF;
+    padding: 10px 50px;
+    display: flex;
+    justify-content: end;
+}
+.dash_select_cont .nav .profile button {
+    background-color: transparent;
+    border: none;
+}
+.dash_select_cont .nav .profile button h5 {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 1%;
+    color: #1C1939;
+    margin-bottom: 0 !important;
+}
+.dash_select_cont .nav {
+    position: sticky;
+    top: 0;
+}
+.dash_select_cont .nav .profile .dropdown-toggle::after {
+    display: none;
+}
+.dash_select_cont .main_body_cont {
+    background-color: #0b3f88;
+    width: 100%;
+    min-height: 100vh;
+    max-height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dash_select_cont .main_body_cont h1 {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+.dash_select_cont .main_body_cont p {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    letter-spacing: 0px;
+}
+.dash_select_cont .main_body_cont .dashboards_cont {
+    width: 640px;
+    border-radius: 14px;
+    padding: 46px;
+    box-shadow: 0px 4px 6px -1px #0000000D;
+    background: #0F3F7E;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+}
+.dash_select_cont .main_body_cont .dashboards_cont .box {
+    width: 168px;
+    /* height: 150; */
+    padding: 0px 10px;
+    padding-top: 21.03px;
+    padding-bottom: 21.03px;
+    border-radius: 8px;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.dash_select_cont .main_body_cont .dashboards_cont .box h3 {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23.36px;
+    letter-spacing: -0.1%;
+    text-align: center;
+    color: #181818;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-height: 720px) {
+    .admin_login_cont .logo {
+        position: relative !important;
+    }
+    
+}
+
+@media (max-width: 728px) {
+    .dash_select_cont .main_body_cont .dashboards_cont {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .dash_select_cont .main_body_cont .cont {
+        width: 90%;
+    }
+    .dash_select_cont .main_body_cont h1 {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 580px) {
+    .admin_login_cont .form_cont {
+        width: 100%;
+    }
+    .admin_login_cont .cont {
+        width: 90%;
+    }
+}

@@ -1,0 +1,1685 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1, h2,h3,h4,h5,h6,p {
+    margin-bottom: 0 !important;
+}
+.loan-dashboard-main-cont {
+    display: flex;
+    justify-content: space-between;
+}
+.loan-dashboard-main-cont .sidebar-main {
+    width: 269px;
+    overflow: auto;
+    height: 100vh;
+    gap: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 16px;
+    background: #0D448C;
+    box-shadow: 0px 0px 37px 0px #10182805;
+}
+.loan-dashboard-main-cont .sidebar-main .main-nav-link .box{
+    display: flex;
+    align-items: center;
+    padding: 12px;
+}
+.loan-dashboard-main-cont .sidebar-main .main-nav-link .active {
+    background: #04387B;
+    border-radius: 8px;
+}
+.loan-dashboard-main-cont .sidebar-main .main-nav-link .box h2 {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22.4px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    align-items: center;
+}
+.loan-dashboard-main-cont .sidebar-main .main-nav-link .box .red {
+    color: #E31B23;
+}
+.loan-dashboard-main-cont .main-dashboard {
+    width: 100%;
+    padding-left: 279px;
+    padding-right: 10px;
+    padding-bottom: 50px;
+    background-color: #f9fafb;
+    min-height: 100vh;
+    max-height: auto;
+}
+.loan-dashboard-main-cont .main-dashboard nav {
+    width: 100%;
+    background-color: #ffffff;
+    border-bottom: 1px solid #F9FAFB;
+    position: sticky;
+    top: 0;
+}
+.loan-dashboard-main-cont .main-dashboard nav .search-input {
+    width: 60%;
+}
+
+.loan-dashboard-main-cont .main-dashboard nav .search-input input {
+    width: 100%;
+    height: 48px;
+    border-radius: 27px;
+    border: 1px solid #EFEFEF;
+    background: #FFFFFF;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    padding-left: 45px;
+    padding-right: 10px;
+    outline: none;
+}
+.loan-dashboard-main-cont .main-dashboard nav .search-input .icon {
+    top: 14px;
+    left: 17px;
+}
+.loan-dashboard-main-cont .main-dashboard nav .search-input input::placeholder {
+    color: #515151;
+}
+.loan-dashboard-main-cont .main-dashboard nav .profile h2 {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #717179;
+    letter-spacing: 0%;
+}
+
+.loan-dashboard-main-cont .main-dashboard .main_content {
+    width: 100%;
+    background-color: #ffffff;
+    min-height: 100vh;
+    max-height: auto;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .dash_header .first h1 {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    color: #121212E5;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .dash_header .first p {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #717179;
+    letter-spacing: 0%;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .dash_header .second .filter {
+    padding-top: 15px;
+    padding-right: 16px;
+    padding-bottom: 15px;
+    padding-left: 16px;
+    background: #F9FAFB;
+    border-radius: 8px;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    color: #292D32;
+    border: none;
+}
+
+.loan-dashboard-main-cont .main-dashboard .main_content .dash_header .second .export {
+    padding-top: 11px;
+    padding-right: 16px;
+    padding-bottom: 11px;
+    padding-left: 16px;
+    border-radius: 8px;
+    background: #0B3F88;
+    border: 1px solid;
+    border-image-source: linear-gradient(180deg, #FFFFFF -20.83%, rgba(255, 255, 255, 0) 15.62%);
+    box-shadow: 0px 0px 0px 1px #0D448C;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .dash-boxes h2 {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 0px;
+    color: #344054;    
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .dash-boxes .main-box-cont {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 10px;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .dash-boxes .main-box-cont .box{
+    border: 1px solid #F5F4F4;
+    width: 100%;
+    padding-top: 16px;
+    padding-right: 13px;
+    padding-bottom: 16px;
+    padding-left: 13px;
+    border-radius: 8px;
+    border-width: 1px;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .dash-boxes .main-box-cont .box h3 {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 0px;
+    color: #242424;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .dash-boxes .main-box-cont .box h4 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    color: #696C70;
+    letter-spacing: 0px;
+}
+
+.loan-dashboard-main-cont .main-dashboard .main_content .dash-loan-perform .header h1{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 0px;
+    color: #344054;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .dash-loan-perform .data-graph-sec .graph-box{
+    width: 100%;
+    border: 1px solid #E7EBEE;
+    background: var(--Surface-card, #FFFFFF);
+    border-radius: 8px;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .dash-loan-perform .data-graph-sec .graph-box .graph-header h3 {
+    color: #344054;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 0px;
+    border-bottom: 1px solid var(--border-primary, #E1E7EC);
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .dash-loan-perform .data-graph-sec .graph-box .data-main {
+    width: 100%;
+    height: 300px;
+    overflow: auto;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .dash-boxes .main-box-loan-cont {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.loan-dashboard-main-cont .main-dashboard .main_content .loan-dash-table-cont .navigation {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .loan-dash-table-cont .navigation .nav-main{
+    display: flex;
+    align-items: center;
+    background: #F9FAFB;
+    width: max-content;
+    border-radius: 4px;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .loan-dash-table-cont .navigation .nav-main h2 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    color: #344054;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .loan-dash-table-cont .navigation .nav-main .active {
+    color: #0D448C;
+    border-bottom: 2px solid var(--Primary-Blue-1, #0D448C);
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .loan-dash-table-cont .navigation .filters button {
+    background: #F9FAFB;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    border: none;
+    color: #292D32;
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    padding-right: 16px;
+    padding-bottom: 15px;
+    padding-left: 16px;
+    border-radius: 8px;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .loan-dash-table-cont .navigation .filters {
+    display: flex;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .loan-dash-table-cont .table-header h3:first-child {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .loan-dash-table-cont .table-header h3:last-child {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .loan-dash-table-cont .table-header h3{
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    color: #292D32;
+    padding: 16px;
+    background: #F9FAFB;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%; 
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .loan-dash-table-cont .table-header {
+    display: grid;
+    grid-template-columns: 1fr 0.8fr 1fr 0.7fr 1fr 0.5fr 1fr 0.8fr;
+}
+
+.loan-dashboard-main-cont .main-dashboard .main_content .loan-dash-table-cont .table-body {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 0.8fr 1fr 0.7fr 1fr 0.5fr 1fr 0.8fr;
+    border-bottom: 1px solid #F9FAFB;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .loan-dash-table-cont .table-body h3 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    color: #344054;
+    padding: 16px;
+    border-right: 1px solid #F9FAFB;
+    
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;    
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .loan-dash-table-cont .table-body h4 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19.6px;
+    letter-spacing: 0%;
+    color: #344054;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%; 
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .loan-dash-table-cont .table-body h5 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    color: #4491EE;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%; 
+}
+
+.loan-dashboard-main-cont .main-dashboard .main_content .loan-dash-table-cont .table-body .grey {
+    color: #696C70;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .loan-dash-table-cont .table-body .status {
+    padding-top: 5px;
+    padding-right: 16px;
+    padding-bottom: 5px;
+    width: max-content;
+    padding-left: 16px;
+    border-radius: 16px;
+    border: 1px solid #FEE3AC;
+    background: #FFECC6;
+
+    color: #EFA100;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: 0%;
+}
+
+.loan-dashboard-main-cont .main-dashboard .main_content .loan-dash-table-cont .table-body .approve {
+    color: #12B76A;
+    background: #E7F8F0;
+    border: 1px solid #D0F1E180;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .loan-dash-table-cont .table-body .await{
+    color: #F79009;
+    background: #FEF4E6;
+    border: 1px solid #FDE9CE80;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .loan-dash-table-cont .table-body .deny {
+    color: #E33B32;
+    background: var(--Danger-100, #FDDDDC);
+    border: 1px solid #FDE9CE80;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .loan-dash-table-cont .table-body .offer {
+    color: #F7CC3B;
+    background: #FEFAEB;
+    border: 1px solid #FDF5D880;
+}
+.cash-repay-modal-cont .modal-header{
+    border-bottom: none;
+}
+
+.cash-repay-modal-cont .modal-header .title h1 {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0px;
+    color: #242424;
+}
+.cash-repay-modal-cont .modal-header .title h3 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    color: #344054;
+}
+.cash-repay-modal-cont .cash-repay-form .input-cont label {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 14px;
+    color: #344054;
+    line-height: 18px;
+    letter-spacing: 0%;
+}
+.cash-repay-modal-cont .cash-repay-form .input-cont input, 
+.cash-repay-modal-cont .cash-repay-form .input-cont select, 
+.cash-repay-modal-cont .cash-repay-form .input-cont textarea {
+    width: 100%;
+    height: 52px;
+    border-radius: 4px;
+    border: 0.7px solid #E6E8EF;
+    background: #FFFFFF;
+    outline: none;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #344054;
+    padding: 16px;
+}
+
+.cash-repay-modal-cont .cash-repay-form .input-cont textarea {
+    height: 116px;
+    max-height: 116px;
+    min-height: 116px;
+}
+
+.cash-repay-modal-cont .cash-repay-form .input-cont .extraRd {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    color: #696C70;
+}
+.cash-repay-modal-cont .cash-repay-form .buttons button {
+    padding-top: 11px;
+    padding-right: 16px;
+    padding-bottom: 11px;
+    padding-left: 16px;
+    border-radius: 8px;
+    background: #F2F4F7;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 16px;
+    border: none;
+    width: 50%;
+    line-height: 19px;
+    color: #374058;
+    letter-spacing: 0%;
+}
+.cash-repay-modal-cont .cash-repay-form .buttons .blue{
+    color: #FFFFFF;
+    background: var(--Primary-Blue-1, #0D448C);
+    border: 1px solid;
+    border-image-source: linear-gradient(180deg, #FFFFFF -20.83%, rgba(255, 255, 255, 0) 15.62%);
+}
+.cash-repay-modal-cont .modal-content {
+    padding: 16px;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .loan-dash-table-cont .pagination h2{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    color: #98A2B3;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .loan-dash-table-cont .pagination .arrows div{
+    width: 32px;
+    height: 32px;
+    background: #F2F4F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .loan-dash-table-cont .pagination .arrows div h3 {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    color: #121212E5;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .loan-dash-table-cont .pagination .arrows .active {
+    background: var(--Primary-Blue-1, #0D448C);
+    border: 2px solid #E7ECF466;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .loan-dash-table-cont .pagination .arrows .active path{
+    stroke: white; 
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .loan-details-nav h2 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    line-height: 18px;
+    color: #242424;
+    letter-spacing: 0%;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .loan-details-nav .active {
+    color: #0D448C;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .loan-details-nav .active path {
+    stroke: #0D448C;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .loan-details-nav {
+    padding-bottom: 13px;
+    border-bottom: 1px solid #EFEFEF;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .loan-details-first-cont{
+    width: 100%;
+    /* height: 188; */
+    padding-top: 19px;
+    padding-right: 22px;
+    padding-bottom: 19px;
+    padding-left: 22px;
+    background: #FAFAFA;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .loan-details-first-cont .second button {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0%;
+    color: white;
+    padding-top: 11px;
+    padding-right: 16px;
+    padding-bottom: 11px;
+    padding-left: 16px;
+    border-radius: 8px;
+    border-width: 1px;
+    background: var(--Primary-Blue-1, #0D448C);
+    border: 1px solid var(--Primary-Blue-1, #0D448C);
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .loan-details-first-cont .first .one {
+    display: flex;
+    flex-direction: column;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .loan-details-first-cont .first .one img{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .loan-details-first-cont .first .one button{
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: 0%;
+    color: #12B76A;
+    padding-top: 5px;
+    padding-right: 16px;
+    padding-bottom: 5px;
+    padding-left: 16px;
+    border-radius: 16px;
+    background: #E7F8F0;
+    border: 1px solid #D0F1E180;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .loan-details-first-cont .first .two h1 {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #344054;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .loan-details-first-cont .first .two h2 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #344054;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .loan-details-first-cont .first .two h2 span {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: right;
+    color: #747474;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .appinfo-repay-cont .appinfo-cont {
+    width: 100%;
+    padding-top: 19px;
+    padding-right: 22px;
+    padding-bottom: 19px;
+    padding-left: 22px;
+    background: #FAFAFA;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .appinfo-repay-cont .appinfo-cont h1 {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #344054;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #EAEAEB;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .appinfo-repay-cont .appinfo-cont .other h2{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    margin-right: 10px;
+    color: #344054;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .appinfo-repay-cont .appinfo-cont .other h3 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: right;
+    color: #747474;
+    width: 32%;
+    display: flex;
+    align-items: start;
+    justify-content: end;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .appinfo-repay-cont .appinfo-cont .other button {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #0D448C;
+    width: 115px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 4px;
+    background: #FFFFFF;
+    border: 1px solid var(--Primary-Blue-1, #0D448C);
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .appinfo-repay-cont .repay-cont .header{
+    width: 100%;
+    padding-top: 21px;
+    padding-right: 10px;
+    padding-bottom: 21px;
+    padding-left: 10px;
+    border-radius: 12px;
+    background: #FAFAFA;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .appinfo-repay-cont .repay-cont .header h2 {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #344054;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .appinfo-repay-cont .repay-cont .header .dropdown-toggle::after{
+    display: none;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .appinfo-repay-cont .repay-cont .header .dropdown-item {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    color: #344054;
+    padding: 10px 16px;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .appinfo-repay-cont .repay-cont .header .dropdown-item:hover {
+    background: #E9EEFC;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .appinfo-repay-cont .repay-cont .repay-table-cont .table-header {
+    width: 100%;
+    justify-content: space-between;
+    border-radius: 8px;
+    background-color: #F9FAFB;
+    display: grid;
+    grid-template-columns: 1fr 0.8fr 1fr 0.5fr;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .appinfo-repay-cont .repay-cont .repay-table-cont .table-header h2{
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 16px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    color: #292D32;    
+    border-left: 1px solid #F2F4F7;
+    border-bottom: 1px solid #F2F4F7;
+    border-radius: 8px;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .appinfo-repay-cont .repay-cont .repay-table-cont .table-body {
+    width: 100%;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 0.8fr 1fr 0.5fr;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .appinfo-repay-cont .repay-cont .repay-table-cont .table-body h2 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 16px;
+    color: #344054;
+    letter-spacing: 0%;
+    border-left: 1px solid #F2F4F7;
+    border-bottom: 1px solid #F2F4F7;
+}
+
+.loan-dashboard-main-cont .main-dashboard .main_content .appinfo-repay-cont .traces-cont .header{
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+    background: #FAFAFA;
+    border-radius: 12px;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .appinfo-repay-cont .traces-cont .header h2 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    color: #344054;
+    padding-top: 10px;
+    padding-right: 16px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .appinfo-repay-cont .traces-cont .header .active {
+    border-bottom: 2px solid var(--Primary-Blue-1, #0D448C);
+    color: #0D448C;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .appinfo-repay-cont .traces-cont .main-trace {
+    width: 100%;
+    border-radius: 12px;
+    padding: 26px 10px;
+    background: #FAFAFA;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .appinfo-repay-cont .traces-cont .main-trace .group .first .two h2 {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0px;
+    color: #344054;       
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .appinfo-repay-cont .traces-cont .main-trace .group .first .two h3 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0px;
+    color: #696C70;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .appinfo-repay-cont .traces-cont .main-trace .group .first .two h3 span {
+    color: #2EBF43;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .appinfo-repay-cont .traces-cont .main-trace .group .second h2{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: right;
+    color: #344054;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .appinfo-repay-cont .traces-cont .main-trace .group .second h3 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: right;
+    color: #696C70;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .appinfo-repay-cont .traces-cont .main-trace .group .first .two h3 .pending {
+    color: #FFAE43;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .appinfo-repay-cont .traces-cont .main-trace .trace-side h2 {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    color: #121212E5;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .appinfo-repay-cont .traces-cont .main-trace .trace-side .trace-group h1 {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    color: #121212E5;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .appinfo-repay-cont .traces-cont .main-trace .trace-side .trace-group h2 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    color: #747474;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .appinfo-repay-cont .traces-cont .main-trace .trace-side .trace-group h3 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    color: #AEADAD;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .appinfo-repay-cont .repay-cont .header .second .downloadBL {
+    padding-top: 11px;
+    padding-right: 16px;
+    padding-bottom: 11px;
+    padding-left: 16px;
+    border-radius: 8px;
+    background: #0B3F88;
+    border: 1px solid;
+    border-image-source: linear-gradient(180deg, #FFFFFF -20.83%, rgba(255, 255, 255, 0) 15.62%);
+    box-shadow: 0px 0px 0px 1px #0D448C;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .appinfo-repay-cont .repay-cont .repay-table-cont .three-crr-type {
+    grid-template-columns: repeat(3, 1fr);
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .appinfo-repay-cont .repay-cont .repay-table-cont .two-bs-type {
+    grid-template-columns: 1fr 0.4fr;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .appinfo-repay-cont .repay-cont .sd-main-cont {
+    width: 100%;
+    padding-top: 10px;
+    padding-right: 12px;
+    padding-bottom: 50px;
+    padding-left: 12px;
+    background-color: #FAFAFA;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .appinfo-repay-cont .repay-cont .sd-main-cont .first h2 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    color: #344054;
+    padding-top: 10px;
+    padding-right: 16px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .appinfo-repay-cont .repay-cont .sd-main-cont .first .active {
+    border-bottom: 2px solid var(--Primary-Blue-1, #0D448C);
+    color: #0D448C;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .appinfo-repay-cont .repay-cont .sd-main-cont .second .box img {
+    width: 40px;
+    height: 40px;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .appinfo-repay-cont .repay-cont .sd-main-cont .second .box h2 {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    color: #16293D;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .appinfo-repay-cont .repay-cont .sd-main-cont .second .box{
+    background-color: #f8f8f8;
+    width: 100%;
+}
+
+.loan-dashboard-main-cont .main-dashboard .main_content .appinfo-repay-cont .repay-cont .sd-main-cont .second .box .cont {
+    display: flex;
+    align-items: center;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .appinfo-repay-cont .repay-cont .sd-main-cont .first button {
+    padding-top: 11px;
+    padding-right: 16px;
+    padding-bottom: 11px;
+    padding-left: 16px;
+    border-radius: 8px;
+    border-width: 1px;
+    background: var(--Primary-Blue-1, #0D448C);
+    border: 1px solid;
+    border-image-source: linear-gradient(180deg, #FFFFFF -20.83%, rgba(255, 255, 255, 0) 15.62%);
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+
+.cash-repay-modal-cont .cash-repay-form .upload-doc-modal-cont .first {
+    width: 100%;
+    border-radius: 12px;
+    border-width: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px dashed var(--Black-4, #696C70);
+    padding: 30px;
+}
+.cash-repay-modal-cont .cash-repay-form .upload-doc-modal-cont .first h2 {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0%;
+    color: #292D32;
+}
+.cash-repay-modal-cont .cash-repay-form .upload-doc-modal-cont .first h2 span {
+    color: #0B3F88;
+}
+.cash-repay-modal-cont .cash-repay-form .upload-doc-modal-cont .first .file {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+.cash-repay-modal-cont .cash-repay-form .upload-doc-modal-cont .second {
+    width: 100%;
+    padding-top: 8px;
+    padding-right: 16px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    border-radius: 4px;
+    background: #F8F8F9;
+    display: flex;
+    align-items: center;
+}
+.cash-repay-modal-cont .cash-repay-form .upload-doc-modal-cont .second h2 {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0%;
+    color: #7F8184;
+}
+.cash-repay-modal-cont .cash-repay-form .upload-doc-modal-cont .second h3 {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0%;
+    color: #0B3F88;
+}
+.cash-repay-modal-cont .action-modal .buttons button {
+    width: 100%;
+}
+.cash-repay-modal-cont .action-modal .action-modal-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.cash-repay-modal-cont .action-modal .action-modal-cont h2{
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: -1%;
+    text-align: center;
+    color: #242424;
+}
+.cash-repay-modal-cont .action-modal .action-modal-cont h3 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.15%;
+    text-align: center;
+    color: #344054;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .details-two{
+    background: transparent;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .applicant-nav-details-cont .nav {
+    background: #F9FAFB;
+    width: max-content;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .applicant-nav-details-cont .main .box  {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid #F9FAFB;
+    background-color: #F9FAFB;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .applicant-nav-details-cont .main .box h2 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    color: #344054;
+}
+
+.loan-dashboard-main-cont .main-dashboard .main_content .loan-dash-table-cont .navigation .applicant-nav h2 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    color: #344054;
+    padding-top: 10px;
+    padding-right: 16px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    border-bottom-width: 2px;   
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .loan-dash-table-cont .navigation .filters button {
+    font-size: 14px;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .loan-dash-table-cont .repayBreak {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 0.8fr 1fr 0.6fr;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .loan-dash-table-cont .rb-tb h3 {
+    white-space: wrap;
+    overflow: visible;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .loan-dash-table-cont .rb-tb .dropdown-item {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    color: #696C70;
+}
+
+.loan-dashboard-main-cont .main-dashboard .main_content .loan-dash-table-cont .rb-tb .dropdown-toggle::after {
+    display: none;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .loan-dash-table-cont .loan-history-details-cont .box {
+    border-radius: 8px;
+    padding: 16px;
+    background-color: #FFFFFF;
+    width: max-content;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .loan-dash-table-cont .loan-history-details-cont .box h2 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0px;
+    color: #344054;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .loan-dash-table-cont .loan-history-details-cont .box h3 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0px;
+    color: #696C70;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .loan-dash-table-cont .loan-history-details-cont {
+    background: #F7F9FC;
+    border: 1px solid #E5EBF2;
+}
+
+.loan-dashboard-main-cont .main-dashboard .main_content .loan-dash-table-cont .navigation .filters .dropdown-toggle::after {
+    display: none;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .loan-dash-table-cont .navigation .filters .dropdown-item {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0px;
+    color: #1C1939;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .loan-dash-table-cont .supportingDocT {
+    grid-template-columns: repeat(3, 1fr);
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .loan-dash-table-cont .rb-tb h3 .suport-first h5 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    color: #344054;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .loan-dash-table-cont .rb-tb h3 .suport-first h6 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0%;
+    color: #525866;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .loan-dash-table-cont .support-doc-review-cont .first h2 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    color: #344054;
+    display: flex;
+    align-items: center;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .loan-dash-table-cont .support-doc-review-cont .second {
+    border-radius: 5px;
+    background: #F0F1F1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px;
+    overflow: auto;
+    height: 513px;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .loan-dash-table-cont .support-doc-review-cont .second img {
+    height: 430px;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .appinfo-repay-cont .appinfo-cont .user-main h2 {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #344054;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .appinfo-repay-cont .appinfo-cont .user-main img {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .appinfo-repay-cont .appinfo-cont .user-main h3 {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #344054;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .appinfo-repay-cont .appinfo-cont .user-main h4 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #344054;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .appinfo-repay-cont .app-user-fi {
+    border: 1px solid #EAEAEB;
+    background: none;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .appinfo-repay-cont .app-user-fi h1 {
+    border-bottom: none;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .appinfo-repay-cont .repay-cont .repay-table-cont .appli-user-table {
+    grid-template-columns: 1fr 0.7fr 1fr 0.7fr 0.7fr 1fr;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .appinfo-repay-cont .repay-cont .repay-table-cont .appli-user-table .app-f h3  {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19.6px;
+    letter-spacing: 0%;
+    color: #344054;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .appinfo-repay-cont .repay-cont .repay-table-cont .appli-user-table .app-f h5 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    color: #696C70;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .appinfo-repay-cont .repay-cont .repay-table-cont .appli-user-table h2 {
+    display: flex;
+    align-items: center;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .appinfo-repay-cont .repay-cont .repay-table-cont .appli-user-table .status {
+    padding-top: 5px;
+    padding-right: 16px;
+    padding-bottom: 5px;
+    width: max-content;
+    padding-left: 16px;
+    border-radius: 16px;
+    border: 1px solid #FEE3AC;
+    background: #FFECC6;
+    color: #EFA100;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: 0%;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .appinfo-repay-cont .repay-cont .repay-table-cont .appli-user-table .deny {
+    color: #E33B32;
+    background: var(--Danger-100, #FDDDDC);
+    border: 1px solid #FDE9CE80;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .appinfo-repay-cont .repay-cont .repay-table-cont .appli-user-table .approve {
+    color: #12B76A;
+    background: #E7F8F0;
+    border: 1px solid #D0F1E180;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .appinfo-repay-cont .repay-cont .empty-list {
+    width: 100%;
+    height: 50vh;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .appinfo-repay-cont .repay-cont .empty-list h2 {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #344054;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .appinfo-repay-cont .repay-cont .empty-list button {
+    padding-top: 11px;
+    padding-right: 16px;
+    padding-bottom: 11px;
+    padding-left: 16px;
+    border-radius: 8px;
+    border-width: 1px;
+    background: var(--Primary-Blue-1, #0D448C);
+    border: 1px solid;
+    border-image-source: linear-gradient(180deg, #FFFFFF -20.83%, rgba(255, 255, 255, 0) 15.62%);
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .loan-product-first-nav {
+    width: 100%;
+    border-radius: 8px;
+    padding: 4px;
+    background: #F9FAFB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #F5F5F5;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .loan-product-first-nav h2 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    width: 100%;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #717179;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 4px;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .loan-product-first-nav .active {
+    color: #0D448C;
+    background-color: white;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .product-creation-form .form-input .first h1 {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0%;
+    color: #344054;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .product-creation-form .form-input .first p {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0%; 
+    color: #696C70;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .product-creation-form .form-input .first {
+    width: 334px;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .product-creation-form .form-input .second {
+    width: 520px;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .product-creation-form .form-input .second .input label {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    color: #344054;
+    display: block;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .product-creation-form .form-input .second .input input, 
+.loan-dashboard-main-cont .main-dashboard .main_content .product-creation-form .form-input .second .input textarea, 
+.loan-dashboard-main-cont .main-dashboard .main_content .product-creation-form .form-input .second .input select {
+    width: 100%;
+    height: 52px;
+    border-radius: 4px;
+    border-width: 0.7px;
+    background: #FFFFFF;
+    border: 0.7px solid #E6E8EF;
+    outline: none;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    padding: 16px;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .product-creation-form .form-input .second .input textarea {
+    height: 116px;
+    max-height: 116px;
+    min-height: 116px;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .product-creation-form .form-input .second .input h6 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    color: #696C70;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .product-creation-form .form-input .first .rule-type label{
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    color: #344054;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .product-creation-form .form-input .first .rule-type .form-check-input {
+    border: none;
+    background-color: #F2F4F7 !important;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .product-creation-form .form-input .first .rule-type .form-check-input:checked {
+    background-color: #0D448C !important;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .product-creation-form .form-input .second .rule h2 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    color: #344054;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .product-creation-form .form-input .second .rule .form-check-input {
+    border: none;
+    background-color: #F2F4F7 !important;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .product-creation-form .form-input .second .rule .form-check-input:checked {
+    background-color: #0D448C !important;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .product-creation-form .form-input .second .sec h1 {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    color: #344054;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .product-creation-form .form-input .second .sec .addmore-p {
+    width: 180px;
+    padding-top: 8px;
+    padding-right: 10px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    border-radius: 8px;
+    border: 1px solid var(--Primary-Blue-1, #0D448C);
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    color: #0B3F88;
+    background: transparent;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .product-creation-form .action-buttons button {
+    padding-top: 11px;
+    padding-right: 16px;
+    padding-bottom: 11px;
+    width: 231px;
+    padding-left: 16px;
+    border-radius: 8px;
+    background-color: #F2F4F7;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0%;
+    color: #374058;
+    border: none;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .product-creation-form .action-buttons .active {
+    background: var(--Primary-Blue-1, #0D448C);
+    border-image-source: linear-gradient(180deg, #FFFFFF -20.83%, rgba(255, 255, 255, 0) 15.62%);
+    color: white;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .product-creation-form .form-input .second .input .form-build-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .product-creation-form .form-input .second .input .form-build-btn button {
+    width: 50%;
+    padding-top: 11px;
+    padding-right: 16px;
+    padding-bottom: 11px;
+    padding-left: 16px;
+    border-radius: 8px;
+    border-width: 1px;
+    border: 1px solid var(--Primary-Blue-1, #0D448C);
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0%;
+    background-color: transparent;
+    color: #0D448C;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .product-creation-form .form-input .second .input .form-build-btn .active {
+    background: var(--Primary-Blue-1, #0D448C);
+    border-image-source: linear-gradient(180deg, #FFFFFF -20.83%, rgba(255, 255, 255, 0) 15.62%);
+    color: white;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .product-creation-form .form-input .form-build-type {
+    width: 100%;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .product-creation-form .form-input .form-build-type .input {
+    width: 80%;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .product-creation-form .form-input .first .build-form-cont{
+    width: 100%;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 16px;
+    border-width: 1px;
+    background: #FAFAFA;
+    border: 1px solid #EEEEEE;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .product-creation-form .form-input .first .build-form-cont h1 {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #344054;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .product-creation-form .form-input .first .build-form-cont .search input {
+    width: 100%;
+    border-radius: 27px;
+    border-width: 1px;
+    padding: 16px;
+    background: #FFFFFF;    
+    border: 1px solid #EFEFEF;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    padding-left: 40px;
+    color: white;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .product-creation-form .form-input .first .build-form-cont .search .icon {
+    left: 13px;
+    top: 21px;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .product-creation-form .form-input .first .build-form-cont .build-boxes .box {
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 11px;
+    padding-right: 16px;
+    padding-bottom: 11px;
+    padding-left: 16px;
+    border-radius: 8px;
+    background: #FFFFFF;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .product-creation-form .form-input .first .build-form-cont .build-boxes .box .f1 {
+    display: flex;
+    align-items: center;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .product-creation-form .form-input .first .build-form-cont .build-boxes .box .f1 h1 {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0%;
+    color: #344054;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .product-creation-form .form-input .first .build-form-cont .build-boxes .box .f1 h2 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 12px;
+    color: #696C70;
+    line-height: 19px;
+    letter-spacing: 0%;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .product-creation-form .form-input .first .build-form-cont .build-boxes {
+    height: 80vh;
+    overflow: auto;
+}
+
+.loan-dashboard-main-cont .main-dashboard .main_content .product-creation-form .form-input .build-fs {
+    width: 570px;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .product-creation-form .form-input .form-build-type .form-build-update-cont .top-buttons button{
+    width: 153px;
+    border-radius: 8px;
+    border-width: 1px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border: 1px solid var(--Primary-Blue-1, #0D448C);
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #0D448C;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .product-creation-form .form-input .form-build-type .form-build-update-cont .top-buttons .active {
+    background: var(--Primary-Blue-1, #0D448C);
+    border-image-source: linear-gradient(180deg, #FFFFFF -20.83%, rgba(255, 255, 255, 0) 15.62%);
+    color: #FFFFFF;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .product-creation-form .form-input .form-build-type .form-build-update-cont .main-formB {
+    width: 100%;
+    border-radius: 16px;
+    border-width: 0.6px;
+    padding-top: 27px;
+    padding-right: 16px;
+    padding-bottom: 27px;
+    padding-left: 16px;
+    border: 0.6px solid #EBEFF6;
+    background: #FAFAFA;
+    box-shadow: 0px 1px 3px 0px #19213D0D;
+    box-shadow: 0px 2px 8px 0px #19213D0A;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .product-creation-form .form-input .form-build-type .form-build-update-cont .main-formB .header-input label {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    color: #344054;
+    display: block;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .product-creation-form .form-input .form-build-type .form-build-update-cont .main-formB .header-input input {
+    width: 100%;
+    height: 52px;
+    border-radius: 4px;
+    border-width: 0.7px;
+    border: 0.7px solid #E6E8EF;
+    background: #FFFFFF;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    padding: 16px;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .product-creation-form .form-input .form-build-type .form-build-update-cont .main-formB .builder-cont {
+    width: 100%;
+    border-width: 1px;
+    padding-top: 13px;
+    padding-right: 14px;
+    padding-bottom: 13px;
+    padding-left: 14px;
+    border: 1px solid #E6E8EF;
+    background: #FFFFFF;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .product-creation-form .form-input .form-build-type .form-build-update-cont .main-formB .builder-cont .input-B label {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    color: #344054;
+    display: block;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .product-creation-form .form-input .form-build-type .form-build-update-cont .main-formB .builder-cont .input-B input {
+    width: 100%;
+    height: 52px;
+    border-radius: 4px;
+    border-width: 0.7px;
+    padding: 16px;
+    background: #FFFFFF;
+    border: 0.7px solid #E6E8EF;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0%;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .product-creation-form .form-input .form-build-type .form-build-update-cont .main-formB .builder-cont .action h2 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    color: #344054;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .product-creation-form .form-input .form-build-type .form-build-update-cont .main-formB .builder-cont .sub-field .action-btn button {
+    border-radius: 4px;
+    padding-top: 12px;
+    padding-right: 7px;
+    padding-bottom: 12px;
+    width: 106px;
+    padding-left: 7px;
+    background-color: #F1F4F9;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #374058;
+    border: none;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .product-creation-form .form-input .form-build-type .form-build-update-cont .main-formB .builder-cont .more button {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    color: #0B3F88;
+    width: 153px;
+    gap: 3px;
+    border-radius: 8px;
+    border-width: 1px;
+    padding-top: 8px;
+    padding-right: 10px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    border: 1px solid var(--Primary-Blue-1, #0D448C);
+    background-color: transparent;
+
+}
+
+.loan-dashboard-main-cont .main-dashboard .main_content .product-creation-form .form-input .form-build-type .form-build-update-cont .main-formB .builder-cont .action .form-check-input {
+    border: none;
+    background-color: #F2F4F7 !important;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .product-creation-form .form-input .form-build-type .form-build-update-cont .main-formB .builder-cont .action .form-check-input:checked {
+    background-color: #0D448C !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
