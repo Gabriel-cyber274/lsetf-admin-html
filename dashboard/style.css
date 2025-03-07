@@ -2414,15 +2414,286 @@ h1, h2,h3,h4,h5,h6,p {
     color: #0D448C;
     border-bottom: 1px solid var(--Primary-Blue-1, #0D448C)
 }
+.loan-dashboard-main-cont .main-dashboard nav .bar-icon {
+    display: none;
+}
+.mobile-sidebar {
+    background-color: #0D448C !important;
+}
+
+.mobile-sidebar .main-nav-link .box{
+    display: flex;
+    align-items: center;
+    padding: 12px;
+}
+.mobile-sidebar .main-nav-link .active {
+    background: #04387B;
+    border-radius: 8px;
+}
+.mobile-sidebar .main-nav-link .box h2 {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22.4px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    align-items: center;
+}
+.mobile-sidebar .main-nav-link .box .red {
+    color: #E31B23;
+}
+.mobile-sidebar .profile h2 {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    letter-spacing: 0%;
+}
+.table-overflow {
+    width: 100%;
+    overflow: auto;
+}
+
+
+@media (max-width: 1374px) {
+    .loan-dashboard-main-cont .main-dashboard .main_content .appinfo-repay-cont .row {
+        display: flex;
+    }
+    .loan-dashboard-main-cont .main-dashboard .main_content .appinfo-repay-cont .row .col-4 {
+        width: 40%;
+    }
+}
+
+
+@media (max-width: 1291px) {
+    .loan-dashboard-main-cont .main-dashboard .main_content .dash-boxes .main-box-cont {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (max-width: 1189px) {
+    .loan-dashboard-main-cont .main-dashboard .main_content .appinfo-repay-cont .appinfo-cont .other {
+        flex-direction: column;
+    }
+    .loan-dashboard-main-cont .main-dashboard .main_content .appinfo-repay-cont .appinfo-cont .other h2 {
+        width: 100%;
+    }
+    .loan-dashboard-main-cont .main-dashboard .main_content .appinfo-repay-cont .appinfo-cont .other h3 {
+        width: 100% !important;
+        justify-content: start;
+        text-align: start;
+    }
+}
+
+@media (max-width: 1143px) {
+    .loan-dashboard-main-cont .main-dashboard .main_content .loan-dash-table-cont .table-header, 
+    .loan-dashboard-main-cont .main-dashboard .main_content .loan-dash-table-cont .table-body {
+        width: 1200px;
+    }
+    .loan-dashboard-main-cont .main-dashboard .main_content .loan-dash-table-cont .navigation .nav-main {
+        flex-direction: column;
+    }
+    .loan-dashboard-main-cont .main-dashboard .main_content .loan-dash-table-cont .navigation {
+        align-items: center;
+    }
+}
+
+@media (max-width: 1039px) {
+    .loan-dashboard-main-cont .main-dashboard .main_content .dash-boxes .main-box-cont {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .loan-dashboard-main-cont .main-dashboard .main_content .dash-loan-perform .data-graph-sec .row {
+        display: flex;
+        flex-direction: column;
+    }
+    .loan-dashboard-main-cont .main-dashboard .main_content .dash-loan-perform .data-graph-sec .graph-box {
+        margin-bottom: 20px;
+    }
+    .loan-dashboard-main-cont .sidebar-main {
+        display: none;
+    }
+    .loan-dashboard-main-cont .main-dashboard {
+        padding-left: 0px;
+    }
+    .loan-dashboard-main-cont .main-dashboard nav .second {
+        display: none !important;
+    }
+    .loan-dashboard-main-cont .main-dashboard nav .bar-icon {
+        display: block;
+    }
+}
+
+@media (max-width: 935px) {
+    .loan-dashboard-main-cont .main-dashboard .main_content .appinfo-repay-cont .row {
+        flex-direction: column;
+    }
+    .loan-dashboard-main-cont .main-dashboard .main_content .appinfo-repay-cont .row .col-4 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 866px) {
+    .loan-dashboard-main-cont .main-dashboard .main_content .loan-dash-table-cont .navigation .filters {
+        margin-top: 10px;
+    }    
+}
+
+@media (max-width: 803px) {
+    .loan-dashboard-main-cont .main-dashboard .main_content .dash-boxes .main-box-cont {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .loan-dashboard-main-cont .main-dashboard .main_content .dash_header .first {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 816px) {
+    .loan-dashboard-main-cont .main-dashboard .main_content .dash_header .first {
+        margin-bottom: 10px;
+    }
+    .loan-dashboard-main-cont .main-dashboard .main_content .dash_header .second {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 662px) {
+    .loan-dashboard-main-cont .main-dashboard .main_content .admin-role-update-cont .col-4 {
+        width: 100%;
+    }
+    .loan-dashboard-main-cont .main-dashboard .main_content .admin-role-update-cont .col-4 {
+        margin-bottom: 20px;
+    }
+    
+    .loan-dashboard-main-cont .main-dashboard .main_content .settings-one-cont .col-4 {
+        width: 100% !important;
+
+    }
+}
+
+@media (max-width: 465px) {
+    .loan-dashboard-main-cont .main-dashboard .main_content .loan-dash-table-cont .navigation .nav-main {
+        width: 100%;
+    }
+    .loan-dashboard-main-cont .main-dashboard .main_content .loan-dash-table-cont .navigation .filters {
+        flex-wrap: wrap;
+    }
+    .loan-dashboard-main-cont .main-dashboard .main_content .product-creation-form .action-buttons {
+        flex-direction: column;
+    }
+    .loan-dashboard-main-cont .main-dashboard .main_content .product-creation-form .action-buttons button {
+        width: 100%;
+    }
+    .loan-dashboard-main-cont .main-dashboard .main_content .product-creation-form .action-buttons .active {
+        margin-top: 20px;
+    }
+    .loan-dashboard-main-cont .main-dashboard .main_content .product-creation-form .form-input .second .input .form-build-btn {
+        flex-direction: column;
+    }
+    .loan-dashboard-main-cont .main-dashboard .main_content .product-creation-form .form-input .second .input .form-build-btn button {
+        width: 100%;
+        margin-left: 0px !important;
+        margin-top: 20px;
+    }
+    .loan-dashboard-main-cont .main-dashboard .main_content .product-creation-form .form-input .form-build-type .form-build-update-cont .main-formB .builder-cont .input-B {
+        flex-wrap: wrap;
+    }
+    .loan-dashboard-main-cont .main-dashboard .main_content .admin-create-role .cont .buttons {
+        flex-direction: column;
+    }
+    .loan-dashboard-main-cont .main-dashboard .main_content .admin-create-role .cont .buttons button {
+        width: 100%;
+    }
+    .loan-dashboard-main-cont .main-dashboard .main_content .admin-create-role .cont .buttons .active{
+        margin-left: 0 !important;
+        margin-top: 10px;
+    }
+    .loan-dashboard-main-cont .main-dashboard .main_content .admin-role-update-cont .admin-side .header .buttons {
+        flex-wrap: wrap;
+    }
+    .loan-dashboard-main-cont .main-dashboard .main_content .admin-create-rule .rule-buttons {
+        flex-direction: column;
+    }
+    .loan-dashboard-main-cont .main-dashboard .main_content .admin-create-rule .rule-buttons button {
+        width: 100%;
+    }
+    .loan-dashboard-main-cont .main-dashboard .main_content .admin-create-rule .rule-buttons .active {
+        margin-left: 0 !important;
+        margin-top: 20px;
+    }
+}
 
 
 
 
+@media (max-width: 768px) {
+    .loan-dashboard-main-cont .main-dashboard .main_content .appinfo-repay-cont .repay-cont .repay-table-cont .appli-user-table {
+        width: 900px;
+    }
+    .loan-dashboard-main-cont .main-dashboard .main_content .loan-details-first-cont .first  {
+        flex-wrap: wrap;
+    }
+    .loan-dashboard-main-cont .main-dashboard .main_content .appinfo-repay-cont .repay-cont .header {
+        flex-wrap: wrap;
+    }
+    .loan-dashboard-main-cont .main-dashboard .main_content .appinfo-repay-cont .repay-cont .repay-table-cont .table-header, 
+    .loan-dashboard-main-cont .main-dashboard .main_content .appinfo-repay-cont .repay-cont .repay-table-cont .table-body {
+        width: 900px;
+    }
+    .loan-dashboard-main-cont .main-dashboard .main_content .loan-dash-table-cont .loan-history-details-cont .box {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .loan-dashboard-main-cont .main-dashboard .main_content .loan-dash-table-cont .loan-history-details-cont .box div {
+        margin-left: 0px !important;
+    }
+    .loan-dashboard-main-cont .main-dashboard .main_content .loan-product-first-nav {
+        flex-direction: column;
+    }
+    .loan-dashboard-main-cont .main-dashboard .main_content .product-creation-form .form-input {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .loan-dashboard-main-cont .main-dashboard .main_content .product-creation-form .form-input .second {
+        margin-top: 20px;
+    }
+    .loan-dashboard-main-cont .main-dashboard .main_content .loan-details-nav {
+        flex-wrap: wrap;
+    }
+    .loan-dashboard-main-cont .main-dashboard .main_content .admin-workflow-main .row .col-4{
+        width: 100% !important;   
+    }
+    .loan-dashboard-main-cont .main-dashboard .main_content .admin-create-role .cont{
+        width: 100%;
+    }
+    .loan-dashboard-main-cont .main-dashboard .main_content .admin-create-role .cont .input-part .step-select {
+        flex-direction: column;
+    }
+    .loan-dashboard-main-cont .main-dashboard .main_content .admin-create-role .cont .input-part .step-select .col-6 {
+        width: 100%;
+    }
+    .loan-dashboard-main-cont .main-dashboard .main_content .admin-create-rule .input-cont-main .row {
+        flex-direction: column;
+    }
+}
 
 
+@media (max-width: 1063px) {
+    .loan-dashboard-main-cont .main-dashboard .main_content .admin-workflow-main .row .col-4{
+        width: 50%;   
+    }
+}
 
 
+@media (max-width: 879px) {
+    .loan-dashboard-main-cont .main-dashboard .main_content .config-nav {
+        flex-direction: column;
+    }
+    .loan-dashboard-main-cont .main-dashboard .main_content .settings-one-cont .col-4 {
+        width: 50%;
 
+    }
+}
 
 
 
