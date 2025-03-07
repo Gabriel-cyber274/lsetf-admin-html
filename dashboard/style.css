@@ -247,6 +247,7 @@ h1, h2,h3,h4,h5,h6,p {
 }
 .loan-dashboard-main-cont .main-dashboard .main_content .loan-dash-table-cont .navigation .nav-main .active {
     color: #0D448C;
+    font-weight: 600;
     border-bottom: 2px solid var(--Primary-Blue-1, #0D448C);
 }
 .loan-dashboard-main-cont .main-dashboard .main_content .loan-dash-table-cont .navigation .filters button {
@@ -1661,10 +1662,758 @@ h1, h2,h3,h4,h5,h6,p {
 .loan-dashboard-main-cont .main-dashboard .main_content .product-creation-form .form-input .form-build-type .form-build-update-cont .main-formB .builder-cont .action .form-check-input:checked {
     background-color: #0D448C !important;
 }
+.cash-repay-modal-cont .cash-repay-form .reg-biz h2 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    color: #344054;
+}
+.cash-repay-modal-cont .cash-repay-form .reg-biz  label  {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    color: #344054;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .product-creation-form .form-input .second .colapse-cont-att .main-collapse .fc h2 {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    color: #344054;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .product-creation-form .form-input .second .colapse-cont-att .main-collapse .fc {
+    padding-bottom: 9px;
+    border-bottom: 1px solid #E6E8EF;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .product-creation-form .form-input .second .colapse-cont-att .main-collapse .card-body {
+    padding: 0 !important;
+    border: none;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .product-creation-form .form-input .second .colapse-cont-att .main-collapse .card-body .box h3 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    color: #344054;
+}
 
+.loan-dashboard-main-cont .main-dashboard .main_content .product-creation-form .form-input .second .colapse-cont-att .main-collapse .card-body .box .form-check-input {
+    border: none;
+    background-color: #F2F4F7 !important;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .product-creation-form .form-input .second .colapse-cont-att .main-collapse .card-body .box .form-check-input:checked {
+    background-color: #0D448C !important;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .product-creation-form .form-input .second .colapse-cont-att .main-collapse .card-body .box {
+    border-width: 1px;
+    padding-top: 16px;
+    padding-right: 13px;
+    padding-bottom: 16px;
+    padding-left: 13px;
+    border: 1px solid #E6E8EF;
+}
 
+.loan-dashboard-main-cont .main-dashboard .main_content .product-creation-form .form-input .second .colapse-cont-att .main-collapse .card-body .repay-service h2 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    color: #344054;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .product-creation-form .form-input .second .colapse-cont-att .main-collapse .card-body .repay-service h3 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    color: #344054;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .product-creation-form .form-input .second .colapse-cont-att .main-collapse .card-body .new-doc {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    color: #0B3F88;
+    /* width: 165; */
+    width: max-content;
+    border-radius: 8px;
+    padding-top: 8px;
+    padding-right: 10px;
+    background-color: transparent;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    border: 1px solid var(--Primary-Blue-1, #0D448C);
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .report-graph-cont .header {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    color: #344054;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .report-graph-cont .main-graph {
+    width: 100%;
+    overflow: auto;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .loan-dash-table-cont .navigation .filters .filt-btn .dropdown-menu {
+    padding: 0;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .loan-dash-table-cont .navigation .filters .filt-btn .filter-report-cont .header h2 {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    color: #292D32;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .loan-dash-table-cont .navigation .filters .filt-btn .filter-report-cont .header {
+    padding: 10px;
+    border-bottom: 1px solid #8C8CA133;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .loan-dash-table-cont .navigation .filters .filt-btn .filter-report-cont .main-form {
+    padding: 10px;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .loan-dash-table-cont .navigation .filters .filt-btn .filter-report-cont .main-form .inputs-cont label {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    color: #292D32;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .loan-dash-table-cont .navigation .filters .filt-btn .filter-report-cont .main-form .inputs-cont input, 
+.loan-dashboard-main-cont .main-dashboard .main_content .loan-dash-table-cont .navigation .filters .filt-btn .filter-report-cont .main-form .inputs-cont select {
+    width: 100%;
+    height: 48px;
+    border-radius: 8px;
+    padding-top: 12px;
+    padding-right: 16px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    background: #FFFFFF;
+    border: 1px solid var(--Border, #EAEAEB);
+    box-shadow: 0px 1px 2px 0px #1018280D;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    outline: none;
 
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .loan-dash-table-cont .navigation .filters .filt-btn .filter-report-cont .main-form button {
+    width: 100%;
+    border-radius: 8px;
+    border-width: 1px;
+    padding-top: 10.5px;
+    padding-right: 16px;
+    padding-bottom: 10.5px;
+    padding-left: 16px;
+    background: var(--Primary-Blue-1, #0D448C);
+    border: 1px solid;
+    border-image-source: linear-gradient(180deg, #FFFFFF -20.83%, rgba(255, 255, 255, 0) 15.62%);
+    box-shadow: 0px 0px 0px 1px #62B2FD;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    line-height: 19px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .loan-dash-table-cont .navigation .filters .export-btn .dropdown-menu li {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    color: #696C70;
+    border-bottom: 1px solid #F2F4F7;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .loan-dash-table-cont .report-three-table {
+    grid-template-columns: repeat(3, 1fr);
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .report-loans-cont .header h2 {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    color: #121212E5;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .report-loans-cont .header .loans-status-select {
+    border-radius: 8px;
+    padding-top: 11px;
+    padding-right: 16px;
+    padding-bottom: 11px;
+    padding-left: 16px;
+    background: #F9FAFB;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .report-loans-cont .header .loans-status-select h3 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0%;
+    color: #292D32;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .report-loans-cont .header .dropdown-menu li {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    color: #696C70;
+    border-bottom: 1px solid #F2F4F7;
+}
 
+.loan-dashboard-main-cont .main-dashboard .main_content .loan-dash-table-cont .report-two-table {
+    grid-template-columns: repeat(2, 1fr);
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .settings-one-cont .box {
+    /* width: 336px; */
+    width: 100%;
+    /* height: 156px; */
+    gap: 24px;
+    border-radius: 8px;
+    border-width: 1px;
+    padding: 20px;
+    background: #FFFFFF;
+    border: 1px solid #EFF1F3;
+    /* flex-wrap: wrap; */
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .settings-one-cont .box .second h1 {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 32px;
+    letter-spacing: 0px;
+    color: #242424;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .settings-one-cont .box .second p {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    color: #696C70;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .loan-details-nav .create {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0%;
+    color: white;
+    width: 165px;
+    border-radius: 8px;
+    border-width: 1px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    background: var(--Primary-Blue-1, #0D448C);
+    border: 1px solid;
+    border-image-source: linear-gradient(180deg, #FFFFFF -20.83%, rgba(255, 255, 255, 0) 15.62%);
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .admin-role-update-cont .admin-side {
+    width: 100%;
+    gap: 16px;
+    border-radius: 16px;
+    border-width: 1px;
+    padding: 40px;
+    background: #FAFAFA;
+    border: 1px solid #EEEEEE;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .admin-role-update-cont .admin-side .header h1 {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #0B3F88;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .admin-role-update-cont .admin-side .list-admins .box {
+    width: 100%;
+    border-radius: 4px;
+    padding: 10px;    
+    background: #FFFFFF;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .admin-role-update-cont .admin-side .list-admins .box h2 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #344054;
+    letter-spacing: 0%;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .admin-role-update-cont .admin-side .header .buttons button {
+    width: 158px;
+    border-radius: 8px;
+    padding-top: 11px;
+    padding-right: 16px;
+    padding-bottom: 11px;
+    padding-left: 16px;
+    /* width: max-content; */
+    background: #FFEBEB;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0%;
+    border: none;
+    color: #E33B32;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .admin-role-update-cont .admin-side .header .buttons .active {
+    background: var(--Primary-Blue-1, #0D448C);
+    border: 1px solid;
+    border-image-source: linear-gradient(180deg, #FFFFFF -20.83%, rgba(255, 255, 255, 0) 15.62%);
+    color: #FFFFFF;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .admin-role-update-cont .admin-side .admin-update-cont .input-side label {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    color: #344054;
+    display: block;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .admin-role-update-cont .admin-side .admin-update-cont .input-side input {
+    width: 100%;
+    height: 52;
+    border-radius: 4px;
+    border-width: 0.7px;
+    background: #FFFFFF;
+    border: 0.7px solid #E6E8EF;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    padding: 16px;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .admin-role-update-cont .admin-side .admin-update-cont .permissions h2 {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    color: #0B3F88;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .admin-role-update-cont .admin-side .admin-update-cont .permissions .permission h3 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #344054;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .admin-role-update-cont .admin-side .admin-update-cont .permissions .permission input {
+    width: 24px;
+    height: 24px;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .admin-create-role .cont{
+    width: 600px;
+    border-radius: 16px;
+    border-width: 1px;
+    padding: 40px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .admin-create-role .cont .header h2 {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0px;
+    color: #242424;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .admin-create-role .cont .header p {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #344054;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .admin-create-role .cont .input-part label {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    display: block;
+    color: #344054;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .admin-create-role .cont .input-part input {
+    width: 100%;
+    height: 52px;
+    border-radius: 4px;
+    border-width: 0.7px;
+    background: #FFFFFF;
+    border: 0.7px solid #E6E8EF;
+    padding: 16px;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .admin-create-role .cont .permissions h2 {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #0B3F88;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .admin-create-role .cont .permissions .permission input {
+    width: 24px;
+    height: 24px;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .admin-create-role .cont .permissions .permission h3 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #344054;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .admin-workflow-main .box {
+    width: 100%;
+    padding-top: 52px;
+    padding-right: 33px;
+    padding-bottom: 75px;
+    padding-left: 33px;
+    border-radius: 8px;
+    background: #FAFAFA;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .admin-workflow-main .box h2 {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0px;
+    color: #242424;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .admin-workflow-main .box p {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    color: #696C70;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .admin-create-role .cont .input-part .step-select .select-cont {
+    width: 100%;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .admin-create-role .cont .input-part .step-select .select-cont h2 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #344054;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .admin-create-role .cont .input-part .step-select .select-cont select {
+    width: 100%;
+    height: 52px;
+    border-radius: 4px;
+    border-width: 0.7px;
+    background: #FFFFFF;
+    border: 0.7px solid #E6E8EF;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0%;
+
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .admin-create-role .cont .input-part .step-select .row {
+    width: 100%;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .admin-create-role .cont .add-step {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #0B3F88;
+    /* width: 117px; */
+    padding-top: 8px;
+    padding-right: 10px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    border-radius: 8px;
+    border-width: 1px;
+    border: 1px solid var(--Primary-Blue-1, #0D448C);
+    background-color: transparent;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .admin-create-role .cont .buttons button {
+    width: 100%;
+    padding-top: 11px;
+    padding-right: 16px;
+    padding-bottom: 11px;
+    padding-left: 16px;
+    border-radius: 8px;
+    background: #F2F4F7;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0%;
+    border: none;
+    color: #374058;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .admin-create-role .cont .buttons .active {
+    background: var(--Primary-Blue-1, #0D448C);
+    color: white;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .admin-create-role .profile-settings-cont .box {
+    width: 100%;
+    padding-top: 16px;
+    padding-right: 26px;
+    padding-bottom: 16px;
+    padding-left: 26px;
+    border-radius: 8px;
+    border: 1px solid #EFEFEF;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .admin-create-role .profile-settings-cont .box .header h1 {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0px;
+    color: #242424;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .admin-create-role .profile-settings-cont .box .header p {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #344054;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .admin-create-role .profile-settings-cont .box .profile .pb h2 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #344054;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .admin-create-role .profile-settings-cont .box .profile .pb h1 {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #344054;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .admin-create-role .profile-settings-cont .box .profile .active-btn {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    padding-top: 11px;
+    padding-right: 16px;
+    padding-bottom: 11px;
+    padding-left: 16px;
+    border-radius: 8px;
+    border-width: 1px;
+    background: var(--Primary-Blue-1, #0D448C);
+    border-image-source: linear-gradient(180deg, #FFFFFF -20.83%, rgba(255, 255, 255, 0) 15.62%);
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .admin-create-role .profile-settings-cont .box .profile .input-profile-cont input, 
+.loan-dashboard-main-cont .main-dashboard .main_content .admin-create-role .profile-settings-cont .box .profile .input-profile-cont select {
+    width: 100%;
+    height: 60;
+    padding-top: 10px;
+    padding-right: 14px;
+    padding-bottom: 10px;
+    padding-left: 14px;
+    border-radius: 8px;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: -0.15%;
+    vertical-align: middle;
+    border: none;
+    outline: none;
+    background: #FAFAFA;
+    padding-left: 57px;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .admin-create-role .profile-settings-cont .box .profile .input-profile-cont svg {
+    left: 6px;
+    top: 3px;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .admin-create-rule {
+    width: 100%;
+    border-radius: 16px;
+    border-width: 1px;
+    padding: 40px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .admin-create-rule .header h1 {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0px;
+    color: #242424;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .admin-create-rule .header p {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #344054;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .admin-create-rule .input-cont-main .input-cont label {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    display: block;
+    color: #344054;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .admin-create-rule .input-cont-main .input-cont input {
+    width: 100%;
+    height: 52px;
+    border-radius: 4px;
+    border-width: 0.7px;
+    background: #FFFFFF;
+    border: 0.7px solid #E6E8EF;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #999999;
+    padding: 16px;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .admin-create-rule .input-cont-main .rule-button {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #0B3F88;
+    padding-top: 8px;
+    padding-right: 10px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    border-radius: 8px;
+    border: 1px solid var(--Primary-Blue-1, #0D448C);
+    background-color: transparent;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .admin-create-rule .rule-buttons button {
+    padding-top: 11px;
+    padding-right: 16px;
+    padding-bottom: 11px;
+    padding-left: 16px;
+    gap: 10px;
+    width: 231px;
+    border-radius: 8px;
+    background: #F2F4F7;
+    border: none;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0%;
+    color: #374058;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .admin-create-rule .rule-buttons .active {
+    background: var(--Primary-Blue-1, #0D448C);
+    color: white;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .loan-dash-table-cont .api-three-table {
+    grid-template-columns: repeat(3, 1fr);
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .loan-dash-table-cont .api-three-table .keys h2 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #344054;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    border: 0.7px solid #E6E8EF;
+    width: 100%;
+    padding: 8px 4px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.loan-dashboard-main-cont .main-dashboard .main_content .loan-dash-table-cont .api-three-table .eye {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.7px solid #E6E8EF;
+    border-left: none;
+    padding: 10px 10px 10px 6px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .loan-dash-table-cont .api-three-table .api-switch .form-switch .form-check-input {
+    background-color: #E4E4E4;
+    border: none;
+    width: 45px;
+    height: 22px;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .loan-dash-table-cont .api-three-table .api-switch .form-switch .form-check-input:checked {
+    background-color: #27B250;
+    border: none;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .loan-dash-table-cont .api-three-table h3 {
+    overflow: visible;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .config-nav h2 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    color:#344054;
+    width: 100%;
+    text-align: center;
+    background: #F9FAFB;
+    padding-top: 10px;
+    padding-right: 16px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    border-bottom-width: 2px;
+}
+.loan-dashboard-main-cont .main-dashboard .main_content .config-nav .active {
+    color: #0D448C;
+    border-bottom: 1px solid var(--Primary-Blue-1, #0D448C)
+}
 
 
 
