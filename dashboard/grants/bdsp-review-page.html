@@ -4,13 +4,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>admin</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="./style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
   </head>
   <body>
     <div class="loan-dashboard-main-cont">
-        <div class="sidebar-main">
-            <img class="" src="../assets/LSETF LOGO wht_015215 (1) 1.png" alt="">
+        <div class="sidebar-main d-none">
+            <img class="" src="../../assets/LSETF LOGO wht_015215 (1) 1.png" alt="">
 
             <div class="main-nav-link mt-5 pt-3">
                 <div class="box active mb-1">
@@ -28,7 +30,7 @@
                         <path d="M7.25662 4.44287C7.05031 4.14258 6.75128 3.73499 7.36899 3.64205C8.00392 3.54651 8.66321 3.98114 9.30855 3.97221C9.89237 3.96413 10.1898 3.70519 10.5089 3.33548C10.8449 2.94617 11.3652 2 12 2C12.6348 2 13.1551 2.94617 13.4911 3.33548C13.8102 3.70519 14.1076 3.96413 14.6914 3.97221C15.3368 3.98114 15.9961 3.54651 16.631 3.64205C17.2487 3.73499 16.9497 4.14258 16.7434 4.44287L15.8105 5.80064C15.4115 6.38146 15.212 6.67187 14.7944 6.83594C14.3769 7 13.8373 7 12.7582 7H11.2418C10.1627 7 9.6231 7 9.20556 6.83594C8.78802 6.67187 8.5885 6.38146 8.18945 5.80064L7.25662 4.44287Z" stroke="white" stroke-width="1.5"/>
                         </svg>
                         
-                    <h2 class="ms-2">Loan</h2>
+                    <h2 class="ms-2">Grants</h2>
                 </div>
                 <div class="box mb-1">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -66,7 +68,7 @@
                         <path d="M12 11L12 15" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
                         </svg>
                         
-                    <h2 class="ms-2">Loan Products</h2>
+                    <h2 class="ms-2">Grant Products</h2>
                 </div>
                 <div class="box mb-1">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -112,7 +114,7 @@
             </div>
         </div>
         <div class="main-dashboard">
-            <nav class="d-flex align-items-center justify-content-between p-3">
+            <nav class="d-flex align-items-center justify-content-between p-3 d-none">
                 <div class="search-input position-relative">
                     <input type="search" placeholder="Search data on Dashboard" name="" id="">
                     <svg class="position-absolute icon" width="19" height="20" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -169,271 +171,117 @@
                     </svg>
                 </div>
             </nav>
+            <div class="back-dash">
+                <h2 class="d-flex align-items-center"><svg class="me-2" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15.6932 5.09736C15.9372 5.34144 15.9594 5.72338 15.7597 5.99252L15.6932 6.06963L9.76295 12.0002L15.6932 17.9307C15.9372 18.1748 15.9594 18.5567 15.7597 18.8259L15.6932 18.903C15.4491 19.147 15.0671 19.1692 14.798 18.9695L14.7209 18.903L8.30423 12.4863C8.06015 12.2422 8.03796 11.8603 8.23766 11.5911L8.30423 11.514L14.7209 5.09736C14.9894 4.82887 15.4247 4.82887 15.6932 5.09736Z" fill="#757575"/>
+                    </svg>
+                     Back</h2>
+            </div>
             <div class="main_content p-3 py-4">
                 <div class="dash_header d-flex justify-content-between flex-wrap">
                     <div class="first me-2">
-                        <h1>Loans</h1>
+                        <h1>BDSP Review Page</h1>
                         <p class="mt-2">Overview of all your data, feel free to explore other pages.</p>
                     </div>
-                    <div class="second d-flex align-items-center">
-                        <button data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="d-flex align-items-center export">Cash Repayment 
-                        </button>
-                    </div>
-
                 </div>
+                <div class="grants-dashboard-main  row mt-4">  
+                        <div class="col">
+                            <div class="box-design p-3 mb-3">
+                                <div class="one_nav mb-4 d-flex align-items-center">
+                                    <h2 class="active">All</h2>
+                                    <h2 class="">Verified</h2>
+                                    <h2 class="">Failed</h2>
+                                </div>
+                                <div class="table-fix p-2 mt-3">
+                                    <div class="table-overflow">
+                                        <div class="table-header bdsp-table">
+                                            <h3>Name</h3>
+                                            <h3>Customer ID</h3>
+                                            <h3>Review Status</h3>
+                                        </div>
+                                        <div class="table-body bdsp-table">
+                                            <h3>James Peter</h3>
+                                            <h3>1234567099PU</h3>
+                                            <h3>
+                                                <div class="status">
+                                                    pending
+                                                </div>
+                                            </h3>
+                                        </div>
+                                    </div>
+                                    <div class="pagination d-flex justify-content-between mt-4 mb-3">
+                                        <h2>Showing 10-100 Results</h2>
+                                        <div class="arrows d-flex align-items-center">
+                                            <div class="me-2">
+                                                <svg width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M10.0002 14.2807L5.65355 9.93404C5.14022 9.4207 5.14022 8.5807 5.65355 8.06737L10.0002 3.7207" stroke="#98A2B3" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    </svg>
+                                            </div>
+                                            <div>
+                                                <h3>1</h3>
+                                            </div>
+                                            <div class="ms-2 active">
+                                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M5.93994 13.2807L10.2866 8.93404C10.7999 8.4207 10.7999 7.5807 10.2866 7.06737L5.93994 2.7207" stroke="#98A2B3" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    </svg>
+                                            </div>
+                
+                
+                
+                                        </div>
+                                    </div>
 
-                <div class="dash-boxes mt-4">
-                    <div class="main-box-cont main-box-loan-cont mt-4">
-                        <div class="box">
-                            <img src="../assets/icon7.png" alt="">
-                            <h3 class="my-2">₦ 24,633,995.00 </h3>
-                            <h4>Active Loans</h4>
-                        </div>
-                        <div class="box">
-                            <img src="../assets/icon7.png" alt="">
-                            <h3 class="my-2">24 </h3>
-                            <h4>Sum of Active Loans</h4>
-                        </div>
-                        <div class="box">
-                            <img src="../assets/icon7.png" alt="">
-                            <h3 class="my-2">₦ 24,633,995.00 </h3>
-                            <h4>Total Loans</h4>
-                        </div>
-                        <div class="box">
-                            <img src="../assets/icon7.png" alt="">
-                            <h3 class="my-2">₦ 24,633,995.00 </h3>
-                            <h4>Sum of Total Loans</h4>
-                        </div>
-                    </div>
-                </div>
+                                </div>
 
-                <div class="loan-dash-table-cont mt-4 mb-3">
-                    <div class="navigation mb-4">
-                        <div class="nav-main">
-                            <h2 class="p-3 active">Applications</h2>
-                            <h2 class="p-3">Approved Loans</h2>
-                            <h2 class="p-3">Denied Application</h2>
-                        </div>
-                        <div class="filters">
-                            <button>
-                                Filter
-                                <svg class="ms-2" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M3.3335 4.16699L16.6668 4.16699" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                    <path d="M15 10L5 10" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                    <path d="M6.66699 15.834L13.3337 15.834" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                    </svg>   
-                            </button>
-                            <button class="mx-3">Sort <svg class="ms-2" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M5.8335 3.33301V16.6663" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                <path d="M14.167 15.833L14.167 3.33301" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                <path d="M8.3335 5.83299C8.3335 5.83299 6.49227 3.33301 5.83348 3.33301C5.17468 3.333 3.3335 5.83301 3.3335 5.83301" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                <path d="M16.667 14.166C16.667 14.166 14.8258 16.666 14.167 16.666C13.5082 16.666 11.667 14.166 11.667 14.166" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg>
-                            </button>
-                            <button>Export Data <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M10.8335 9.16634L17.6668 2.33301" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                <path d="M18.3335 5.66699V1.66699H14.3335" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                <path d="M9.1665 1.66699H7.49984C3.33317 1.66699 1.6665 3.33366 1.6665 7.50033V12.5003C1.6665 16.667 3.33317 18.3337 7.49984 18.3337H12.4998C16.6665 18.3337 18.3332 16.667 18.3332 12.5003V10.8337" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg>
-                            </button>
+                            </div>
 
                         </div>
-                    </div>
+                        <div class="col-5">
+                            <div class="box-design p-3 mb-3">
+                                <div class="header d-flex justify-content-between align-items-center">
+                                    <h1 class="bold-text" >Application Process</h1>
+                                </div>
+                                <div class="form-bdsp">
+                                    <form action="">
+                                        <div class="input-cont mb-3">
+                                            <label for="" class="mb-1" >Application Status<span class="text-danger">*</span></label>
+                                            <select name="" id="">
+                                                <option value="Verified">Verified</option>
+                                            </select>
+                                        </div>
+                                        <div class="input-cont mb-3">
+                                            <label for="" class="mb-1" >Request Document<span class="text-danger">*</span></label>
+                                            <select name="" id="">
+                                                <option value="NIN">NIN</option>
+                                            </select>
+                                        </div>
+                                        <div class="input-cont mb-3">
+                                            <label for="" class="mb-1">Note to Applicant</label>
+                                            <textarea name="" placeholder="Please ensure document is authentic" id=""></textarea>
+                                        </div>
+                                        <button class="mt-5">Send to applicants</button>
+                                    </form>
+                                </div>
 
-                    <div class="table-overflow">
-                        <div class="table-header">
-                            <h3>Customer</h3>
-                            <h3>Applicant ID</h3>
-                            <h3>Date and Time</h3>
-                            <h3>Application ID</h3>
-                            <h3>Approval Workflow</h3>
-                            <h3>Loan Product</h3>
-                            <h3>Status</h3>
-                            <h3>Amount(R/P)</h3>
-                        </div>
-                        <div class="div-table-body">
-                            <div class="table-body">
-                                <h3>
-                                    <div>                            
-                                        <h4>James Peter</h4><h5>James.peter@ikooba.com</h5>
-                                    </div>
-                                </h3>
-                                <h3>1234567099PU</h3>
-                                <h3>20 Oct 2024 . 10:05PM</h3>
-                                <h3>APP-202412345</h3>
-                                <h3>MCC Approval MES</h3>
-                                <h3>SME</h3>
-                                <h3>
-                                    <div class="status">
-                                    pending
-                                </div></h3>
-                                <h3>
-                                    <div>
-                                        <h4>200,000</h4>
-                                        <h5 class="grey">In Progress</h5>
-                                    </div>
-                                </h3>
-                            </div>
-                            <div class="table-body">
-                                <h3>
-                                    <div>                            
-                                        <h4>James Peter</h4><h5>James.peter@ikooba.com</h5>
-                                    </div>
-                                </h3>
-                                <h3>1234567099PU</h3>
-                                <h3>20 Oct 2024 . 10:05PM</h3>
-                                <h3>APP-202412345</h3>
-                                <h3>MCC Approval MES</h3>
-                                <h3>SME</h3>
-                                <h3>
-                                    <div class="status approve">
-                                        Approved
-                                </div></h3>
-                                <h3>
-                                    <div>
-                                        <h4>200,000</h4>
-                                        <h5 class="grey">In Progress</h5>
-                                    </div>
-                                </h3>
-                            </div>
-                            <div class="table-body">
-                                <h3>
-                                    <div>                            
-                                        <h4>James Peter</h4><h5>James.peter@ikooba.com</h5>
-                                    </div>
-                                </h3>
-                                <h3>1234567099PU</h3>
-                                <h3>20 Oct 2024 . 10:05PM</h3>
-                                <h3>APP-202412345</h3>
-                                <h3>MCC Approval MES</h3>
-                                <h3>SME</h3>
-                                <h3>
-                                    <div class="status await">
-                                        Awaiting Feedback
-                                </div></h3>
-                                <h3>
-                                    <div>
-                                        <h4>200,000</h4>
-                                        <h5 class="grey">In Progress</h5>
-                                    </div>
-                                </h3>
-                            </div>
-                            <div class="table-body">
-                                <h3>
-                                    <div>                            
-                                        <h4>James Peter</h4><h5>James.peter@ikooba.com</h5>
-                                    </div>
-                                </h3>
-                                <h3>1234567099PU</h3>
-                                <h3>20 Oct 2024 . 10:05PM</h3>
-                                <h3>APP-202412345</h3>
-                                <h3>MCC Approval MES</h3>
-                                <h3>SME</h3>
-                                <h3>
-                                    <div class="status deny">
-                                        Denied
-                                </div></h3>
-                                <h3>
-                                    <div>
-                                        <h4>200,000</h4>
-                                        <h5 class="grey">In Progress</h5>
-                                    </div>
-                                </h3>
-                            </div>
-                            <div class="table-body">
-                                <h3>
-                                    <div>                            
-                                        <h4>James Peter</h4><h5>James.peter@ikooba.com</h5>
-                                    </div>
-                                </h3>
-                                <h3>1234567099PU</h3>
-                                <h3>20 Oct 2024 . 10:05PM</h3>
-                                <h3>APP-202412345</h3>
-                                <h3>MCC Approval MES</h3>
-                                <h3>SME</h3>
-                                <h3>
-                                    <div class="status offer">
-                                        Offer Letter Sent
-                                </div></h3>
-                                <h3>
-                                    <div>
-                                        <h4>200,000</h4>
-                                        <h5 class="grey">In Progress</h5>
-                                    </div>
-                                </h3>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="pagination d-flex justify-content-between mt-4 mb-3">
-                        <h2>Showing 10-100 Results</h2>
-                        <div class="arrows d-flex align-items-center">
-                            <div class="me-2">
-                                <svg width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M10.0002 14.2807L5.65355 9.93404C5.14022 9.4207 5.14022 8.5807 5.65355 8.06737L10.0002 3.7207" stroke="#98A2B3" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                    </svg>
-                            </div>
-                            <div>
-                                <h3>1</h3>
-                            </div>
-                            <div class="ms-2 active">
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M5.93994 13.2807L10.2866 8.93404C10.7999 8.4207 10.7999 7.5807 10.2866 7.06737L5.93994 2.7207" stroke="#98A2B3" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                    </svg>
                             </div>
 
-
+                            <div class="active-btn-proceed mt-5 mb-4">
+                                <button>Proceed To Risk Analysis Review</button>
+                            </div>
 
                         </div>
                     </div>
-                </div>
+                
 
             </div>
         </div>
     </div>
 
-    
-    <!-- cash modal -->
-    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered cash-repay-modal-cont">
-          <div class="modal-content">
-            <div class="modal-header d-flex justify-content-between align-items-start">
-                <div class="title">
-                    <h1 class="" id="staticBackdropLabel">Cash Repayment</h1>
-                    <h3 class="mt-2">Please enter cash repayment details</h3>
-                </div>
-              <svg data-bs-dismiss="modal" aria-label="Close" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect width="40" height="40" rx="20" fill="#F2F4F7"/>
-                <path opacity="0.8" d="M20.9161 19.9999L24.8099 23.8939C25.0634 24.1472 25.0634 24.5567 24.8099 24.81C24.5567 25.0633 24.1471 25.0633 23.8939 24.81L19.9999 20.916L16.1061 24.81C15.8527 25.0633 15.4433 25.0633 15.1901 24.81C14.9366 24.5567 14.9366 24.1472 15.1901 23.8939L19.0839 19.9999L15.1901 16.1059C14.9366 15.8526 14.9366 15.4431 15.1901 15.1898C15.3163 15.0635 15.4822 15 15.6481 15C15.8139 15 15.9798 15.0635 16.1061 15.1898L19.9999 19.0838L23.8939 15.1898C24.0202 15.0635 24.1861 15 24.3519 15C24.5178 15 24.6836 15.0635 24.8099 15.1898C25.0634 15.4431 25.0634 15.8526 24.8099 16.1059L20.9161 19.9999Z" fill="#374058"/>
-                </svg>
-            </div>
-            <div class="modal-body">
-              <form action="" class="cash-repay-form">
-                <div class="input-cont mb-2">
-                    <label class="mb-2">Applicant id</label>
-                    <input type="text" placeholder="Enter applicant Id" name="" id="">
-                </div>
-                <div class="input-cont mb-2">
-                    <label class="mb-2">Amount</label>
-                    <input type="text" name="" placeholder="Enter Amount" id="">
-                </div>
-                <div class="buttons mt-4 d-flex justify-content-between">
-                    <button data-bs-dismiss="modal" aria-label="Close" class="me-4" type="button">Cancel</button>
-                    <button class="blue">Record Repayment</button>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
 
-
-
-      <!-- mobilen nav -->
-      <div class="offcanvas offcanvas-start mobile-sidebar" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas offcanvas-start mobile-sidebar" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
         <div class="offcanvas-header d-flex justify-content-between">
           <h5 class="offcanvas-title" id="offcanvasExampleLabel">
-            <img class="" src="../assets/LSETF LOGO wht_015215 (1) 1.png" alt="">
+            <img class="" src="../../assets/LSETF LOGO wht_015215 (1) 1.png" alt="">
         </h5>
           <svg data-bs-dismiss="offcanvas" aria-label="Close" width="30" height="30" viewBox="0 0 24 24" fill="white">
             <line x1="5" y1="5" x2="19" y2="19" stroke="white" stroke-width="2"/>
@@ -457,7 +305,7 @@
                         <path d="M7.25662 4.44287C7.05031 4.14258 6.75128 3.73499 7.36899 3.64205C8.00392 3.54651 8.66321 3.98114 9.30855 3.97221C9.89237 3.96413 10.1898 3.70519 10.5089 3.33548C10.8449 2.94617 11.3652 2 12 2C12.6348 2 13.1551 2.94617 13.4911 3.33548C13.8102 3.70519 14.1076 3.96413 14.6914 3.97221C15.3368 3.98114 15.9961 3.54651 16.631 3.64205C17.2487 3.73499 16.9497 4.14258 16.7434 4.44287L15.8105 5.80064C15.4115 6.38146 15.212 6.67187 14.7944 6.83594C14.3769 7 13.8373 7 12.7582 7H11.2418C10.1627 7 9.6231 7 9.20556 6.83594C8.78802 6.67187 8.5885 6.38146 8.18945 5.80064L7.25662 4.44287Z" stroke="white" stroke-width="1.5"/>
                         </svg>
                         
-                    <h2 class="ms-2">Loan</h2>
+                    <h2 class="ms-2">Grants</h2>
                 </div>
                 <div class="box mb-1">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -495,7 +343,7 @@
                         <path d="M12 11L12 15" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
                         </svg>
                         
-                    <h2 class="ms-2">Loan Products</h2>
+                    <h2 class="ms-2">Grant Products</h2>
                 </div>
                 <div class="box mb-1">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
