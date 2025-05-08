@@ -326,3 +326,298 @@
     transform: rotate(45deg);
   }
   
+  .loan-dashboard-main-cont .main-dashboard .main_content .loan-dash-table-cont .crm-applic5 {
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .loan-dashboard-main-cont .main-dashboard .main_content .innovate-d-crm-cont {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+  }
+  .loan-dashboard-main-cont .main-dashboard .main_content .innovate-d-crm-cont .boxD {
+    width: 100%;
+    /* height: 264; */
+    border-radius: 12px; 
+    background: #FAFAFA;
+    padding: 20px;
+  }
+  .loan-dashboard-main-cont .main-dashboard .main_content .innovate-d-crm-cont .boxD h1 {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #344054;
+  }
+  .loan-dashboard-main-cont .main-dashboard .main_content .innovate-d-crm-cont .boxD h3 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #747474;
+  }
+  .loan-dashboard-main-cont .main-dashboard .main_content .innovate-d-crm-cont .boxD h3 span {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #344054;
+  }
+  .loan-dashboard-main-cont .main-dashboard .main_content .innovate-d-crm-cont .boxD .header button {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #12B76A;
+    width: 90px;
+    /* height: 24;
+    gap: 10px; */
+    padding-top: 5px;
+    padding-right: 16px;
+    padding-bottom: 5px;
+    padding-left: 16px;
+    border-radius: 16px;
+    border-width: 1px;
+    background: #E7F8F0;
+    border: 1px solid #D0F1E180;
+
+  }
+  .loan-dashboard-main-cont .main-dashboard .main_content .innovate-d-crm-cont .boxD h5 {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-offset: 0%;
+    text-decoration-thickness: 0%;
+    color: #0D448C;
+  }
+  .loan-dashboard-main-cont .main-dashboard .main_content .appinfo-repay-cont .crm-b1-d .header-crm-ino h1 {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #344054;
+    padding-bottom: 0px;
+    border-bottom: none;
+  }
+  .loan-dashboard-main-cont .main-dashboard .main_content .appinfo-repay-cont .crm-b1-d .header-crm-ino button {
+    width: 207px;
+    /* height: 50;
+    gap: 10px; */
+    padding-top: 11px;
+    padding-right: 16px;
+    padding-bottom: 11px;
+    padding-left: 16px;
+    border-radius: 8px;
+    border-width: 1px;
+    background: var(--Primary-Blue-1, #0D448C);
+    border: 1px solid;
+    border-image-source: linear-gradient(180deg, #FFFFFF -20.83%, rgba(255, 255, 255, 0) 15.62%);
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+  }
+  .loan-dashboard-main-cont .main-dashboard .main_content .appinfo-repay-cont .crm-b1-d .crm-in-documents-cont {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+  .loan-dashboard-main-cont .main-dashboard .main_content .appinfo-repay-cont .crm-b1-d .crm-in-documents-cont .box{
+    width: 100%;
+    /* height: 50; */
+    border-width: 1px;
+    padding: 16px;
+    border-radius: 8px;
+    border-width: 0px, 0px, 0px, 0px;
+    border-style: solid;
+    border-color: #F5F6F7;
+  }
+  .loan-dashboard-main-cont .main-dashboard .main_content .appinfo-repay-cont .crm-b1-d .crm-in-documents-cont .box h2 {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    color: #16293D;
+  }
+  .loan-dashboard-main-cont .main-dashboard .main_content .appinfo-repay-cont .crm-b1-d .crm-in-documents-cont .box h2 span {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 10px;
+    letter-spacing: 0px;
+  }
+  .loan-dashboard-main-cont .main-dashboard .main_content .appinfo-repay-cont .crm-b1-d .crm-in-documents-cont .box h3 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 10px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #121212E5;
+  }
+  .loan-dashboard-main-cont .main-dashboard .main_content .appinfo-repay-cont .crm-b1-d .crm-in-documents-cont .box h3 span {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 10px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #0D448C;
+    text-overflow: ellipsis;
+    text-wrap: nowrap;
+    overflow: hidden;
+    width: 102px;
+    display: block;
+  }
+  .loan-dashboard-main-cont .main-dashboard .main_content .appinfo-repay-cont .traces-cont .main-trace .h-crm-i h1 {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #344054;
+  }
+  .loan-dashboard-main-cont .main-dashboard .main_content .appinfo-repay-cont .traces-cont .main-trace .h-crm-i button {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #E31B23;
+    /* width: 90;
+    height: 24;
+    gap: 10px; */
+    padding-top: 5px;
+    padding-right: 16px;
+    padding-bottom: 5px;
+    padding-left: 16px;
+    border-radius: 16px;
+    border-width: 1px;
+    background: #FCE8E9;
+    border: 1px solid #F9D1D380;
+  }
+  .loan-dashboard-main-cont .main-dashboard .main_content .innovate-d-crm-cont .boxD h3 button {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #12B76A;
+    /* width: 68;
+    height: 24;
+    gap: 10px; */
+    padding-top: 5px;
+    padding-right: 16px;
+    padding-bottom: 5px;
+    padding-left: 16px;
+    border-radius: 16px;
+    border-width: 1px;
+    background: #E7F8F0;
+    border: 1px solid #D0F1E180
+  }
+  
+  .loan-dashboard-main-cont .main-dashboard .main_content .solu-comm-main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+  .loan-dashboard-main-cont .main-dashboard .main_content .solu-comm-main .box {
+    width: 100%;
+    /* height: 348; */
+    border-radius: 12px;
+    padding: 20px;
+    background: #FAFAFA;
+  }
+  .loan-dashboard-main-cont .main-dashboard .main_content .solu-comm-main .box h1 {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #344054;
+  }
+  .loan-dashboard-main-cont .main-dashboard .main_content .solu-comm-main .box form label{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    color: #292D32;
+    display: block;
+  }
+  .loan-dashboard-main-cont .main-dashboard .main_content .solu-comm-main .box form textarea {
+    width: 100%;
+    height: 100px;
+    min-height: 100px;
+    max-height: 100px;
+    padding-top: 12px;
+    padding-right: 16px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    border-radius: 8px;
+    border-width: 1px;
+    background: #FFFFFF;
+    border: 1px solid var(--Border, #EAEAEB);
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #7F8184;
+  }
+  .loan-dashboard-main-cont .main-dashboard .main_content .solu-comm-main .box form button {
+    /* width: 161px; */
+    /* height: 50;
+    top: 274px;
+    left: 25px;
+    gap: 10px; */
+    padding-top: 11px;
+    padding-right: 16px;
+    padding-bottom: 11px;
+    padding-left: 16px;
+    border-radius: 8px;
+    border-width: 1px;
+    background: var(--Primary-Blue-1, #0D448C);
+    border: 1px solid;
+    border-image-source: linear-gradient(180deg, #FFFFFF -20.83%, rgba(255, 255, 255, 0) 15.62%);
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+  }
+  .loan-dashboard-main-cont .sidebar-main .main-nav-link .drop-ncrm {
+    background-color: transparent;
+    border: none;
+    padding: 0px;
+  }
+  .loan-dashboard-main-cont .sidebar-main .main-nav-link .drop-ncrm .sub h3 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #FFFFFF;
+  }
+  .loan-dashboard-main-cont .sidebar-main .main-nav-link .drop-ncrm .sub {
+    display: flex;
+    align-items: center;
+    padding: 12px 12px 12px 30px;
+
+  }
