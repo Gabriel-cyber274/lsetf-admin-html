@@ -174,16 +174,377 @@
                         <p class="mt-2">Overview of all your data, feel free to explore other pages.</p>
                     </div>
                     <div class="second d-flex align-items-center">
-                        <button class="d-flex align-items-center export">Send Bulk Message
+                        <button class="d-flex align-items-center export" data-bs-toggle="modal" data-bs-target="#bulkMessage">Send Bulk Message
                         </button>
                     </div>
 
+                </div>
+                <button class="mt-4 showM-b" type="button" data-bs-toggle="offcanvas" data-bs-target="#showMailOff" aria-controls="showMailOff">show mails</button>
+                <div class="email-sending-main-cont row mt-3">
+                    <div class="col-4">
+                        <div class="first-email py-5">
+                            <div class="header">
+                                <h1>Broadcast History</h1>
+                                <div class="unread ms-2">3</div>
+                            </div>
+                            <div class="header2 my-3">
+                                <select name="" id="">
+                                    <option value="Recent" selected>Recent</option>
+                                </select>
+                            </div>
+
+                            <div class="mail-select-box-main">
+                                <div class="select-box d-flex justify-content-between align-items-start mb-3">
+                                    <input type="checkbox" class="check">
+                                    <div class="ms-3 f1 d-flex justify-content-between">
+                                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <rect x="0.5" y="0.5" width="39" height="39" rx="19.5" fill="#D0F1E1"/>
+                                            <rect x="0.5" y="0.5" width="39" height="39" rx="19.5" stroke="#D0F1E1"/>
+                                            <path d="M24.5833 15.4141L15 24.9974" stroke="#12B76A" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M16.667 15H25.0003V23.3333" stroke="#12B76A" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                        <div class="f2 ms-3">
+                                            <div class="head1 mb-3 d-flex justify-content-between align-items-center">
+                                                <h2>Email</h2>
+                                                <div class="d-flex align-items-center">
+                                                    <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M11.6234 1.62699C10.6942 1.88909 9.84644 2.50418 9.35753 2.99308L9.00398 3.34664C8.80872 3.5419 8.49213 3.5419 8.29687 3.34664C8.10161 3.15137 8.10161 2.83479 8.29687 2.63953L8.65043 2.28598C9.22218 1.71422 10.2129 0.985806 11.352 0.664542C12.5171 0.335917 13.8676 0.43208 15.0144 1.57887C16.1612 2.72566 16.2573 4.07617 15.9287 5.24129C15.6075 6.38032 14.879 7.37107 14.3073 7.94283L7.94332 14.3068C7.37156 14.8785 6.38081 15.607 5.24178 15.9282C4.07666 16.2569 2.72615 16.1607 1.57936 15.0139C0.432569 13.8671 0.336406 12.5166 0.66503 11.3515C0.986294 10.2124 1.71471 9.22169 2.28646 8.64994L5.46845 5.46796C5.82807 5.10833 6.45113 4.64862 7.1765 4.44403C7.92796 4.23208 8.81886 4.29288 9.56966 5.04369C10.3205 5.7945 10.3813 6.6854 10.1693 7.43686C9.96474 8.16223 9.50502 8.78529 9.1454 9.14491L6.59982 11.6905C6.40455 11.8858 6.08797 11.8858 5.89271 11.6905C5.69745 11.4952 5.69745 11.1787 5.89271 10.9834L8.43829 8.43781C8.71507 8.16103 9.06145 7.681 9.20688 7.1654C9.34495 6.67589 9.29969 6.18793 8.86256 5.7508C8.42543 5.31367 7.93746 5.26841 7.44796 5.40648C6.93235 5.5519 6.45232 5.89829 6.17555 6.17506L2.99357 9.35704C2.50467 9.84595 1.88958 10.6937 1.62748 11.6229C1.37274 12.5261 1.45336 13.4737 2.28646 14.3068C3.11957 15.1399 4.06716 15.2205 4.97032 14.9658C5.89958 14.7037 6.74731 14.0886 7.23621 13.5997L13.6002 7.23572C14.0891 6.74682 14.7042 5.8991 14.9663 4.96983C15.221 4.06667 15.1404 3.11909 14.3073 2.28598C13.4742 1.45287 12.5266 1.37225 11.6234 1.62699Z" fill="#686B84"/>
+                                                        </svg>
+                                                        <div class="card ms-2">
+                                                            3:30 PM
+                                                        </div>  
+                                                </div>
+                                            </div>
+                                            <div class="f3">
+                                                <h1 class="mb-3">Business Documentation</h1>
+                                                <p class="mb-3">Get your following documents ready to access all upcoming loans for yo...</p>
+                                                <button>Sent</button>
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="select-box d-flex justify-content-between align-items-start mb-3">
+                                    <input type="checkbox" class="check">
+                                    <div class="ms-3 f1 d-flex justify-content-between">
+                                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <rect x="0.5" y="0.5" width="39" height="39" rx="19.5" fill="#D0F1E1"/>
+                                            <rect x="0.5" y="0.5" width="39" height="39" rx="19.5" stroke="#D0F1E1"/>
+                                            <path d="M24.5833 15.4141L15 24.9974" stroke="#12B76A" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M16.667 15H25.0003V23.3333" stroke="#12B76A" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                        <div class="f2 ms-3">
+                                            <div class="head1 mb-3 d-flex justify-content-between align-items-center">
+                                                <h2>Email</h2>
+                                                <div class="d-flex align-items-center">
+                                                    <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M11.6234 1.62699C10.6942 1.88909 9.84644 2.50418 9.35753 2.99308L9.00398 3.34664C8.80872 3.5419 8.49213 3.5419 8.29687 3.34664C8.10161 3.15137 8.10161 2.83479 8.29687 2.63953L8.65043 2.28598C9.22218 1.71422 10.2129 0.985806 11.352 0.664542C12.5171 0.335917 13.8676 0.43208 15.0144 1.57887C16.1612 2.72566 16.2573 4.07617 15.9287 5.24129C15.6075 6.38032 14.879 7.37107 14.3073 7.94283L7.94332 14.3068C7.37156 14.8785 6.38081 15.607 5.24178 15.9282C4.07666 16.2569 2.72615 16.1607 1.57936 15.0139C0.432569 13.8671 0.336406 12.5166 0.66503 11.3515C0.986294 10.2124 1.71471 9.22169 2.28646 8.64994L5.46845 5.46796C5.82807 5.10833 6.45113 4.64862 7.1765 4.44403C7.92796 4.23208 8.81886 4.29288 9.56966 5.04369C10.3205 5.7945 10.3813 6.6854 10.1693 7.43686C9.96474 8.16223 9.50502 8.78529 9.1454 9.14491L6.59982 11.6905C6.40455 11.8858 6.08797 11.8858 5.89271 11.6905C5.69745 11.4952 5.69745 11.1787 5.89271 10.9834L8.43829 8.43781C8.71507 8.16103 9.06145 7.681 9.20688 7.1654C9.34495 6.67589 9.29969 6.18793 8.86256 5.7508C8.42543 5.31367 7.93746 5.26841 7.44796 5.40648C6.93235 5.5519 6.45232 5.89829 6.17555 6.17506L2.99357 9.35704C2.50467 9.84595 1.88958 10.6937 1.62748 11.6229C1.37274 12.5261 1.45336 13.4737 2.28646 14.3068C3.11957 15.1399 4.06716 15.2205 4.97032 14.9658C5.89958 14.7037 6.74731 14.0886 7.23621 13.5997L13.6002 7.23572C14.0891 6.74682 14.7042 5.8991 14.9663 4.96983C15.221 4.06667 15.1404 3.11909 14.3073 2.28598C13.4742 1.45287 12.5266 1.37225 11.6234 1.62699Z" fill="#686B84"/>
+                                                        </svg>
+                                                        <div class="card ms-2">
+                                                            3:30 PM
+                                                        </div>  
+                                                </div>
+                                            </div>
+                                            <div class="f3">
+                                                <h1 class="mb-3">Business Documentation</h1>
+                                                <p class="mb-3">Get your following documents ready to access all upcoming loans for yo...</p>
+                                                <button class="failed">Failed</button>
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="select-box d-flex justify-content-between align-items-start mb-3">
+                                    <input type="checkbox" class="check">
+                                    <div class="ms-3 f1 d-flex justify-content-between">
+                                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <rect x="0.5" y="0.5" width="39" height="39" rx="19.5" fill="#D0F1E1"/>
+                                            <rect x="0.5" y="0.5" width="39" height="39" rx="19.5" stroke="#D0F1E1"/>
+                                            <path d="M24.5833 15.4141L15 24.9974" stroke="#12B76A" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M16.667 15H25.0003V23.3333" stroke="#12B76A" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                        <div class="f2 ms-3">
+                                            <div class="head1 mb-3 d-flex justify-content-between align-items-center">
+                                                <h2>Email</h2>
+                                                <div class="d-flex align-items-center">
+                                                    <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M11.6234 1.62699C10.6942 1.88909 9.84644 2.50418 9.35753 2.99308L9.00398 3.34664C8.80872 3.5419 8.49213 3.5419 8.29687 3.34664C8.10161 3.15137 8.10161 2.83479 8.29687 2.63953L8.65043 2.28598C9.22218 1.71422 10.2129 0.985806 11.352 0.664542C12.5171 0.335917 13.8676 0.43208 15.0144 1.57887C16.1612 2.72566 16.2573 4.07617 15.9287 5.24129C15.6075 6.38032 14.879 7.37107 14.3073 7.94283L7.94332 14.3068C7.37156 14.8785 6.38081 15.607 5.24178 15.9282C4.07666 16.2569 2.72615 16.1607 1.57936 15.0139C0.432569 13.8671 0.336406 12.5166 0.66503 11.3515C0.986294 10.2124 1.71471 9.22169 2.28646 8.64994L5.46845 5.46796C5.82807 5.10833 6.45113 4.64862 7.1765 4.44403C7.92796 4.23208 8.81886 4.29288 9.56966 5.04369C10.3205 5.7945 10.3813 6.6854 10.1693 7.43686C9.96474 8.16223 9.50502 8.78529 9.1454 9.14491L6.59982 11.6905C6.40455 11.8858 6.08797 11.8858 5.89271 11.6905C5.69745 11.4952 5.69745 11.1787 5.89271 10.9834L8.43829 8.43781C8.71507 8.16103 9.06145 7.681 9.20688 7.1654C9.34495 6.67589 9.29969 6.18793 8.86256 5.7508C8.42543 5.31367 7.93746 5.26841 7.44796 5.40648C6.93235 5.5519 6.45232 5.89829 6.17555 6.17506L2.99357 9.35704C2.50467 9.84595 1.88958 10.6937 1.62748 11.6229C1.37274 12.5261 1.45336 13.4737 2.28646 14.3068C3.11957 15.1399 4.06716 15.2205 4.97032 14.9658C5.89958 14.7037 6.74731 14.0886 7.23621 13.5997L13.6002 7.23572C14.0891 6.74682 14.7042 5.8991 14.9663 4.96983C15.221 4.06667 15.1404 3.11909 14.3073 2.28598C13.4742 1.45287 12.5266 1.37225 11.6234 1.62699Z" fill="#686B84"/>
+                                                        </svg>
+                                                        <div class="card ms-2">
+                                                            3:30 PM
+                                                        </div>  
+                                                </div>
+                                            </div>
+                                            <div class="f3">
+                                                <h1 class="mb-3">Business Documentation</h1>
+                                                <p class="mb-3">Get your following documents ready to access all upcoming loans for yo...</p>
+                                                <button class="schedule">Scheduled</button>
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="second-email">
+                            <div class="page-h d-flex justify-content-center mb-5">
+                                <h3>13 / 13</h3>
+                            </div>
+                            <div class="header-mail d-flex justify-content-between align-items-start">
+                                <div class="f1 d-flex ">
+                                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect x="0.5" y="0.5" width="39" height="39" rx="19.5" fill="#D0F1E1"/>
+                                        <rect x="0.5" y="0.5" width="39" height="39" rx="19.5" stroke="#D0F1E1"/>
+                                        <path d="M24.5833 15.4141L15 24.9974" stroke="#12B76A" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M16.667 15H25.0003V23.3333" stroke="#12B76A" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                        <div class="ms-2">
+                                            <h1>Your company <span>&lt;email@domain.com&gt;</span></h1>
+                                            <div class="type">
+                                                <select name="" id="">
+                                                    <option value="to all applicants" selected>to all applicants</option>
+                                                </select>
+                                            </div>
+
+                                        </div>
+                                        
+                                </div>
+                                <div class="f2 d-flex justify-content-between">
+                                    <h3 class="me-3">Wed, Sep 15, 8:07 AM (2 days ago)</h3>
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M9.99984 12.8224L6.8665 14.7141L7.6915 11.1474L4.92484 8.7474L8.57484 8.43906L9.99984 5.0724L11.4248 8.43906L15.0748 8.7474L12.3082 11.1474L13.1332 14.7141L9.99984 12.8224ZM18.3332 7.6974L12.3415 7.18906L9.99984 1.66406L7.65817 7.18906L1.6665 7.6974L6.20817 11.6391L4.84984 17.4974L9.99984 14.3891L15.1498 17.4974L13.7832 11.6391L18.3332 7.6974Z" fill="#767676"/>
+                                        </svg>
+                                        
+                                        <svg class="mx-3" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M8.33333 7.4974V4.16406L2.5 9.9974L8.33333 15.8307V12.4141C12.5 12.4141 15.4167 13.7474 17.5 16.6641C16.6667 12.4974 14.1667 8.33073 8.33333 7.4974Z" fill="#767676"/>
+                                            </svg>
+                                            
+                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M10.0002 13.3359C10.4422 13.3359 10.8661 13.5115 11.1787 13.8241C11.4912 14.1367 11.6668 14.5606 11.6668 15.0026C11.6668 15.4446 11.4912 15.8686 11.1787 16.1811C10.8661 16.4937 10.4422 16.6693 10.0002 16.6693C9.55814 16.6693 9.13421 16.4937 8.82165 16.1811C8.50909 15.8686 8.3335 15.4446 8.3335 15.0026C8.3335 14.5606 8.50909 14.1367 8.82165 13.8241C9.13421 13.5115 9.55814 13.3359 10.0002 13.3359ZM10.0002 8.33594C10.4422 8.33594 10.8661 8.51153 11.1787 8.82409C11.4912 9.13665 11.6668 9.56058 11.6668 10.0026C11.6668 10.4446 11.4912 10.8686 11.1787 11.1811C10.8661 11.4937 10.4422 11.6693 10.0002 11.6693C9.55814 11.6693 9.13421 11.4937 8.82165 11.1811C8.50909 10.8686 8.3335 10.4446 8.3335 10.0026C8.3335 9.56058 8.50909 9.13665 8.82165 8.82409C9.13421 8.51153 9.55814 8.33594 10.0002 8.33594ZM10.0002 3.33594C10.4422 3.33594 10.8661 3.51153 11.1787 3.82409C11.4912 4.13665 11.6668 4.56058 11.6668 5.0026C11.6668 5.44463 11.4912 5.86855 11.1787 6.18112C10.8661 6.49368 10.4422 6.66927 10.0002 6.66927C9.55814 6.66927 9.13421 6.49368 8.82165 6.18112C8.50909 5.86855 8.3335 5.44463 8.3335 5.0026C8.3335 4.56058 8.50909 4.13665 8.82165 3.82409C9.13421 3.51153 9.55814 3.33594 10.0002 3.33594Z" fill="#767676"/>
+                                                </svg>
+                                                
+                                            
+                                        
+                                        
+                                </div>
+                            </div>
+                            <div class="main-mail-message my-5">
+                                <div class="main">
+                                    <p>Nulla pulvinar ex id orci tempor, id accumsan metus pretium. Proin mollis venenatis magna, at imperdiet nisi pharetra ac. </p>
+                                </div>
+                                <div class="attach-main ">
+                                    <div class="attach-box mt-4 mb-4 d-flex justify-content-between align-items-center">
+                                        <svg class="me-2" width="17" height="22" viewBox="0 0 17 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M16.3905 6L10.619 1H3.88571C1.9619 1 1.16032 3 1 4V18C1 20.4 2.92381 21 3.88571 21H13.5048C15.8133 21 16.3905 19 16.3905 18V6Z" stroke="#344054"/>
+                                            <path d="M4.95415 12.5631L9.03517 8.32046C9.48862 7.84906 10.6676 7.18909 11.7558 8.32046C12.8441 9.45183 12.2093 10.6775 11.7558 11.1489L7.67483 15.3915C7.44811 15.6272 6.85863 15.9572 6.31449 15.3915C5.77036 14.8258 6.08777 14.213 6.31449 13.9773L9.71534 10.4418" stroke="#344054" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                            <h2 class="me-2">Attachment</h2>
+                                            <div class="line me-2"></div>
+
+                                            <svg class="me-2" width="18" height="22" viewBox="0 0 18 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M16.619 6L10.8476 1H4.11423C2.19042 1 1.38883 3 1.22852 4V18C1.22852 20.4 3.15233 21 4.11423 21H13.7333C16.0418 21 16.619 19 16.619 18V6Z" stroke="#344054"/>
+                                                <path d="M8.92377 8.125C6.51578 8.125 4.70912 9.65564 4.17702 11.5H3.15234C3.69801 8.93248 6.07461 7 8.92377 7C11.7729 7 14.1495 8.93248 14.6952 11.5C14.1495 14.0675 11.7731 16 8.92396 16C6.0748 16 3.69801 14.0675 3.15234 11.5H4.17702C4.70912 13.3444 6.51597 14.875 8.92396 14.875C11.332 14.875 13.1386 13.3444 13.6707 11.5C13.1386 9.65564 11.3318 8.125 8.92377 8.125Z" fill="#344054"/>
+                                                <path d="M8.92383 10.5C9.83313 10.5 10.3477 11.0564 10.3477 11.5C10.3477 11.9436 9.83313 12.5 8.92383 12.5C8.01452 12.5 7.5 11.9436 7.5 11.5C7.5 11.0564 8.01452 10.5 8.92383 10.5Z" stroke="#344054"/>
+                                                </svg>
+                                                <svg width="18" height="22" viewBox="0 0 18 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M16.5521 6L10.7807 1H4.04734C2.12353 1 1.32194 3 1.16162 4V18C1.16162 20.4 3.08543 21 4.04734 21H13.6664C15.975 21 16.5521 19 16.5521 18V6Z" stroke="#344054"/>
+                                                    <rect x="5.97119" y="14" width="5.77143" height="1" rx="0.5" fill="#344054"/>
+                                                    <path d="M8.85691 7V12M8.85691 12L11.7426 9M8.85691 12L5.97119 9" stroke="#344054" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    </svg>
+                                    </div>
+                                    <div class="boxes d-flex align-items-center">
+                                        <div class="box me-3">
+                                            <h2>.PDF</h2>
+                                        </div>
+                                        <div class="box me-3">
+                                            <h2>.PDF</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                        </div>
+                    </div>
                 </div>
 
 
             </div>
         </div>
     </div>
+
+    <!-- bulk send -->
+    <div class="modal fade bulk-message-send" id="bulkMessage" tabindex="-1" aria-labelledby="bulkMessageLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+          <div class="modal-content">
+            <div class="modal-header p-4">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Enter Subject</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body p-4">
+                <div class="to-cont d-flex align-items-start mb-3">
+                    <h2>To</h2>
+                    <svg class="ms-3" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="0.5" y="0.5" width="29" height="29" rx="14.5" stroke="#9294A0" stroke-dasharray="5 3"/>
+                        <path d="M14 8H16V22H14V8Z" fill="#9294A0"/>
+                        <path d="M22 14V16L8 16L8 14L22 14Z" fill="#9294A0"/>
+                        </svg>
+                </div>
+                <div class="label-cont d-flex align-items-start">
+                    <h3>Message Type</h3>
+                    <select class="ms-2" name="" id="">
+                        <option value="Email" selected>Email</option>
+                    </select>
+                </div>
+                <div class="text-a mt-3">
+                    <textarea class="mb-3" name="" id="" placeholder="Type something"></textarea>
+                    <div class="position-relative">
+                        <input type="file" class="file-select">
+                        <h3><svg class="" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M15.6234 5.62699C14.6942 5.88909 13.8464 6.50418 13.3575 6.99308L13.004 7.34664C12.8087 7.5419 12.4921 7.5419 12.2969 7.34664C12.1016 7.15137 12.1016 6.83479 12.2969 6.63953L12.6504 6.28598C13.2222 5.71422 14.2129 4.98581 15.352 4.66454C16.5171 4.33592 17.8676 4.43208 19.0144 5.57887C20.1612 6.72566 20.2573 8.07617 19.9287 9.24129C19.6075 10.3803 18.879 11.3711 18.3073 11.9428L11.9433 18.3068C11.3716 18.8785 10.3808 19.607 9.24178 19.9282C8.07666 20.2569 6.72615 20.1607 5.57936 19.0139C4.43257 17.8671 4.33641 16.5166 4.66503 15.3515C4.98629 14.2124 5.71471 13.2217 6.28646 12.6499L9.46845 9.46796C9.82807 9.10833 10.4511 8.64862 11.1765 8.44403C11.928 8.23208 12.8189 8.29288 13.5697 9.04369C14.3205 9.7945 14.3813 10.6854 14.1693 11.4369C13.9647 12.1622 13.505 12.7853 13.1454 13.1449L10.5998 15.6905C10.4046 15.8858 10.088 15.8858 9.89271 15.6905C9.69745 15.4952 9.69745 15.1787 9.89271 14.9834L12.4383 12.4378C12.7151 12.161 13.0615 11.681 13.2069 11.1654C13.3449 10.6759 13.2997 10.1879 12.8626 9.7508C12.4254 9.31367 11.9375 9.26841 11.448 9.40648C10.9324 9.5519 10.4523 9.89829 10.1756 10.1751L6.99357 13.357C6.50467 13.8459 5.88958 14.6937 5.62748 15.6229C5.37274 16.5261 5.45336 17.4737 6.28646 18.3068C7.11957 19.1399 8.06716 19.2205 8.97032 18.9658C9.89958 18.7037 10.7473 18.0886 11.2362 17.5997L17.6002 11.2357C18.0891 10.7468 18.7042 9.8991 18.9663 8.96983C19.221 8.06667 19.1404 7.11909 18.3073 6.28598C17.4742 5.45287 16.5266 5.37225 15.6234 5.62699Z" fill="#0D448C"/>
+                            </svg>
+                            Add Attachement</h3>
+                    </div>
+                </div>
+              <div class="send-btn d-flex justify-content-end mt-4">
+                <button>Send Bulk Message <svg class="ms-2" width="34" height="28" viewBox="0 0 34 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <mask id="path-1-inside-1_4937_72778" fill="white">
+                    <path d="M0 0H34V28H0V0Z"/>
+                    </mask>
+                    <path d="M1 28V0H-1V28H1Z" fill="#F1F1F1" mask="url(#path-1-inside-1_4937_72778)"/>
+                    <path d="M21.5 11.75C21.5 11.75 18.1858 16.25 17 16.25C15.8141 16.25 12.5 11.75 12.5 11.75" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- //show mail offcanvas -->
+      <div class="offcanvas offcanvas-start email-sending-main-cont-off" tabindex="-1" id="showMailOff" aria-labelledby="showMailOffLabel">
+        <div class="offcanvas-header">
+          <!-- <h5 class="offcanvas-title" id="showMailOffLabel">Offcanvas</h5> -->
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body ">
+            <div class="first-email">
+                <div class="header">
+                    <h1>Broadcast History</h1>
+                    <div class="unread ms-2">3</div>
+                </div>
+                <div class="header2 my-3">
+                    <select name="" id="">
+                        <option value="Recent" selected>Recent</option>
+                    </select>
+                </div>
+
+                <div class="mail-select-box-main">
+                    <div class="select-box d-flex justify-content-between align-items-start mb-3">
+                        <input type="checkbox" class="check">
+                        <div class="ms-3 f1 d-flex justify-content-between">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="0.5" y="0.5" width="39" height="39" rx="19.5" fill="#D0F1E1"/>
+                                <rect x="0.5" y="0.5" width="39" height="39" rx="19.5" stroke="#D0F1E1"/>
+                                <path d="M24.5833 15.4141L15 24.9974" stroke="#12B76A" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M16.667 15H25.0003V23.3333" stroke="#12B76A" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            <div class="f2 ms-3">
+                                <div class="head1 mb-3 d-flex justify-content-between align-items-center">
+                                    <h2>Email</h2>
+                                    <div class="d-flex align-items-center">
+                                        <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M11.6234 1.62699C10.6942 1.88909 9.84644 2.50418 9.35753 2.99308L9.00398 3.34664C8.80872 3.5419 8.49213 3.5419 8.29687 3.34664C8.10161 3.15137 8.10161 2.83479 8.29687 2.63953L8.65043 2.28598C9.22218 1.71422 10.2129 0.985806 11.352 0.664542C12.5171 0.335917 13.8676 0.43208 15.0144 1.57887C16.1612 2.72566 16.2573 4.07617 15.9287 5.24129C15.6075 6.38032 14.879 7.37107 14.3073 7.94283L7.94332 14.3068C7.37156 14.8785 6.38081 15.607 5.24178 15.9282C4.07666 16.2569 2.72615 16.1607 1.57936 15.0139C0.432569 13.8671 0.336406 12.5166 0.66503 11.3515C0.986294 10.2124 1.71471 9.22169 2.28646 8.64994L5.46845 5.46796C5.82807 5.10833 6.45113 4.64862 7.1765 4.44403C7.92796 4.23208 8.81886 4.29288 9.56966 5.04369C10.3205 5.7945 10.3813 6.6854 10.1693 7.43686C9.96474 8.16223 9.50502 8.78529 9.1454 9.14491L6.59982 11.6905C6.40455 11.8858 6.08797 11.8858 5.89271 11.6905C5.69745 11.4952 5.69745 11.1787 5.89271 10.9834L8.43829 8.43781C8.71507 8.16103 9.06145 7.681 9.20688 7.1654C9.34495 6.67589 9.29969 6.18793 8.86256 5.7508C8.42543 5.31367 7.93746 5.26841 7.44796 5.40648C6.93235 5.5519 6.45232 5.89829 6.17555 6.17506L2.99357 9.35704C2.50467 9.84595 1.88958 10.6937 1.62748 11.6229C1.37274 12.5261 1.45336 13.4737 2.28646 14.3068C3.11957 15.1399 4.06716 15.2205 4.97032 14.9658C5.89958 14.7037 6.74731 14.0886 7.23621 13.5997L13.6002 7.23572C14.0891 6.74682 14.7042 5.8991 14.9663 4.96983C15.221 4.06667 15.1404 3.11909 14.3073 2.28598C13.4742 1.45287 12.5266 1.37225 11.6234 1.62699Z" fill="#686B84"/>
+                                            </svg>
+                                            <div class="card ms-2">
+                                                3:30 PM
+                                            </div>  
+                                    </div>
+                                </div>
+                                <div class="f3">
+                                    <h1 class="mb-3">Business Documentation</h1>
+                                    <p class="mb-3">Get your following documents ready to access all upcoming loans for yo...</p>
+                                    <button>Sent</button>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="select-box d-flex justify-content-between align-items-start mb-3">
+                        <input type="checkbox" class="check">
+                        <div class="ms-3 f1 d-flex justify-content-between">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="0.5" y="0.5" width="39" height="39" rx="19.5" fill="#D0F1E1"/>
+                                <rect x="0.5" y="0.5" width="39" height="39" rx="19.5" stroke="#D0F1E1"/>
+                                <path d="M24.5833 15.4141L15 24.9974" stroke="#12B76A" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M16.667 15H25.0003V23.3333" stroke="#12B76A" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            <div class="f2 ms-3">
+                                <div class="head1 mb-3 d-flex justify-content-between align-items-center">
+                                    <h2>Email</h2>
+                                    <div class="d-flex align-items-center">
+                                        <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M11.6234 1.62699C10.6942 1.88909 9.84644 2.50418 9.35753 2.99308L9.00398 3.34664C8.80872 3.5419 8.49213 3.5419 8.29687 3.34664C8.10161 3.15137 8.10161 2.83479 8.29687 2.63953L8.65043 2.28598C9.22218 1.71422 10.2129 0.985806 11.352 0.664542C12.5171 0.335917 13.8676 0.43208 15.0144 1.57887C16.1612 2.72566 16.2573 4.07617 15.9287 5.24129C15.6075 6.38032 14.879 7.37107 14.3073 7.94283L7.94332 14.3068C7.37156 14.8785 6.38081 15.607 5.24178 15.9282C4.07666 16.2569 2.72615 16.1607 1.57936 15.0139C0.432569 13.8671 0.336406 12.5166 0.66503 11.3515C0.986294 10.2124 1.71471 9.22169 2.28646 8.64994L5.46845 5.46796C5.82807 5.10833 6.45113 4.64862 7.1765 4.44403C7.92796 4.23208 8.81886 4.29288 9.56966 5.04369C10.3205 5.7945 10.3813 6.6854 10.1693 7.43686C9.96474 8.16223 9.50502 8.78529 9.1454 9.14491L6.59982 11.6905C6.40455 11.8858 6.08797 11.8858 5.89271 11.6905C5.69745 11.4952 5.69745 11.1787 5.89271 10.9834L8.43829 8.43781C8.71507 8.16103 9.06145 7.681 9.20688 7.1654C9.34495 6.67589 9.29969 6.18793 8.86256 5.7508C8.42543 5.31367 7.93746 5.26841 7.44796 5.40648C6.93235 5.5519 6.45232 5.89829 6.17555 6.17506L2.99357 9.35704C2.50467 9.84595 1.88958 10.6937 1.62748 11.6229C1.37274 12.5261 1.45336 13.4737 2.28646 14.3068C3.11957 15.1399 4.06716 15.2205 4.97032 14.9658C5.89958 14.7037 6.74731 14.0886 7.23621 13.5997L13.6002 7.23572C14.0891 6.74682 14.7042 5.8991 14.9663 4.96983C15.221 4.06667 15.1404 3.11909 14.3073 2.28598C13.4742 1.45287 12.5266 1.37225 11.6234 1.62699Z" fill="#686B84"/>
+                                            </svg>
+                                            <div class="card ms-2">
+                                                3:30 PM
+                                            </div>  
+                                    </div>
+                                </div>
+                                <div class="f3">
+                                    <h1 class="mb-3">Business Documentation</h1>
+                                    <p class="mb-3">Get your following documents ready to access all upcoming loans for yo...</p>
+                                    <button class="failed">Failed</button>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="select-box d-flex justify-content-between align-items-start mb-3">
+                        <input type="checkbox" class="check">
+                        <div class="ms-3 f1 d-flex justify-content-between">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="0.5" y="0.5" width="39" height="39" rx="19.5" fill="#D0F1E1"/>
+                                <rect x="0.5" y="0.5" width="39" height="39" rx="19.5" stroke="#D0F1E1"/>
+                                <path d="M24.5833 15.4141L15 24.9974" stroke="#12B76A" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M16.667 15H25.0003V23.3333" stroke="#12B76A" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            <div class="f2 ms-3">
+                                <div class="head1 mb-3 d-flex justify-content-between align-items-center">
+                                    <h2>Email</h2>
+                                    <div class="d-flex align-items-center">
+                                        <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M11.6234 1.62699C10.6942 1.88909 9.84644 2.50418 9.35753 2.99308L9.00398 3.34664C8.80872 3.5419 8.49213 3.5419 8.29687 3.34664C8.10161 3.15137 8.10161 2.83479 8.29687 2.63953L8.65043 2.28598C9.22218 1.71422 10.2129 0.985806 11.352 0.664542C12.5171 0.335917 13.8676 0.43208 15.0144 1.57887C16.1612 2.72566 16.2573 4.07617 15.9287 5.24129C15.6075 6.38032 14.879 7.37107 14.3073 7.94283L7.94332 14.3068C7.37156 14.8785 6.38081 15.607 5.24178 15.9282C4.07666 16.2569 2.72615 16.1607 1.57936 15.0139C0.432569 13.8671 0.336406 12.5166 0.66503 11.3515C0.986294 10.2124 1.71471 9.22169 2.28646 8.64994L5.46845 5.46796C5.82807 5.10833 6.45113 4.64862 7.1765 4.44403C7.92796 4.23208 8.81886 4.29288 9.56966 5.04369C10.3205 5.7945 10.3813 6.6854 10.1693 7.43686C9.96474 8.16223 9.50502 8.78529 9.1454 9.14491L6.59982 11.6905C6.40455 11.8858 6.08797 11.8858 5.89271 11.6905C5.69745 11.4952 5.69745 11.1787 5.89271 10.9834L8.43829 8.43781C8.71507 8.16103 9.06145 7.681 9.20688 7.1654C9.34495 6.67589 9.29969 6.18793 8.86256 5.7508C8.42543 5.31367 7.93746 5.26841 7.44796 5.40648C6.93235 5.5519 6.45232 5.89829 6.17555 6.17506L2.99357 9.35704C2.50467 9.84595 1.88958 10.6937 1.62748 11.6229C1.37274 12.5261 1.45336 13.4737 2.28646 14.3068C3.11957 15.1399 4.06716 15.2205 4.97032 14.9658C5.89958 14.7037 6.74731 14.0886 7.23621 13.5997L13.6002 7.23572C14.0891 6.74682 14.7042 5.8991 14.9663 4.96983C15.221 4.06667 15.1404 3.11909 14.3073 2.28598C13.4742 1.45287 12.5266 1.37225 11.6234 1.62699Z" fill="#686B84"/>
+                                            </svg>
+                                            <div class="card ms-2">
+                                                3:30 PM
+                                            </div>  
+                                    </div>
+                                </div>
+                                <div class="f3">
+                                    <h1 class="mb-3">Business Documentation</h1>
+                                    <p class="mb-3">Get your following documents ready to access all upcoming loans for yo...</p>
+                                    <button class="schedule">Scheduled</button>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+      </div>
+
 
 
     <div class="offcanvas offcanvas-start mobile-sidebar" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
